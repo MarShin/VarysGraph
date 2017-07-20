@@ -12,8 +12,6 @@ from textblob import TextBlob
 import matplotlib.pyplot as plt
 import re
 
-"# -- coding: utf-8 --"
-
 def calctime(a):
     return time.time()-a
 
