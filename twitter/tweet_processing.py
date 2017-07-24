@@ -2,7 +2,7 @@ import datetime
 import logging
 from tweepy import Status
 
-# from twitter.models import Tweet, User
+from twitter.models import Tweet, User
 
 logger = logging.getLogger(__name__)
 

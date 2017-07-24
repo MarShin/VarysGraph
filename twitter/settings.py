@@ -11,6 +11,10 @@ ACCESS_SECRET = ''
 # Things to track
 TO_TRACK = [
     'tesla',
+    'Tesla',
+    'TSLA',
+    'elon musk',
+    # 'Trump',
     ]
 
 # DateTime format
