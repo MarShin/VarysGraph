@@ -14,7 +14,7 @@ TO_TRACK = [
     'Tesla',
     'TSLA',
     'elon musk',
-    # 'Trump',
+    'Trump',
     ]
 
 # DateTime format

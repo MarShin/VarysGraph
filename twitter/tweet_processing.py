@@ -1,7 +1,8 @@
 import datetime
 import logging
 from tweepy import Status
-
+from textblob import TextBlob
+import re
 from twitter.models import Tweet, User
 
 logger = logging.getLogger(__name__)
@@ -18,12 +19,30 @@ class TweetProcessing:
             self.status = status
             self.author = status.author
 
+    def compute_sentiment(self, tweet):
+        print 'analyzing sentiment'
+
+        text =" ".join(re.findall("[a-zA-Z]+", tweet))
+        print text.strip()
+        blob = TextBlob(text.strip())
+        sentiment = 0
+        subjectivity = 0
+        for sen in blob.sentences:
+            sentiment += sen.sentiment.polarity
+            subjectivity += sen.sentiment.subjectivity
+        return sentiment, subjectivity
+
     def prepare_tweet_attributes(self):
         # the date needs to be formated as a string to be serialized.
         if hasattr(self.status, 'coordinates') and self.status.coordinates and 'coordinates' in self.status.coordinates:
             coordinates = self.status.coordinates['coordinates']
         else:
             coordinates = None
+        if self.status.text:
+            sentiment_polarity, sentiment_subjectivity = self.compute_sentiment(self.status.text)
+        else:
+            sentiment_polarity = None
+            sentiment_subjectivity = None
         return {
             'created_at': self.status.created_at.strftime(self.DATETIME_FORMAT),
             'coordinates': coordinates,
@@ -31,6 +50,8 @@ class TweetProcessing:
             'lang': self.status.lang if hasattr(self.status, 'lang') else None,
             'retweeted': self.status.retweeted if hasattr(self.status, 'retweeted') else None,
             'text': self.status.text.lower(),
+            'sentiment_polarity': sentiment_polarity,
+            'sentiment_subjectivity': sentiment_subjectivity,
         }
 
     def prepare_user_attributes(self):

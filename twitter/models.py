@@ -5,7 +5,7 @@ import neomodel
 
 class Company(neomodel.StructuredNode):
     id_str = neomodel.StringProperty(unique_index=True, required=True)
-    name = neomodel.StringProperty(required=True, default='')
+    name = neomodel.StringProperty(required=True)
     created_at = neomodel.DateTimeProperty(required=False)
     modified = neomodel.DateTimeProperty(required=False)
     description = neomodel.StringProperty(required=False)
