@@ -9,10 +9,10 @@ class Streaming:
     def __init__(self,
                  pipeline,
                  batch_size=1000,
-                 consumer_key=settings.CONSUMER_TOKEN,
-                 consumer_secret=settings.CONSUMER_SECRET,
-                 acces_token=settings.ACCESS_TOKEN,
-                 access_secret=settings.ACCESS_SECRET,):
+                 consumer_key=settings.TWITTER_CONSUMER_TOKEN,
+                 consumer_secret=settings.TWITTER_CONSUMER_SECRET,
+                 acces_token=settings.TWITTER_ACCESS_TOKEN,
+                 access_secret=settings.TWITTER_ACCESS_SECRET,):
         self.auth = tweepy.OAuthHandler(consumer_key=consumer_key, consumer_secret=consumer_secret)
         self.auth.set_access_token(acces_token, access_secret)
         self.stream = tweepy.Stream(auth=self.auth, listener=Listener(pipeline, batch_size=batch_size))

@@ -2,11 +2,15 @@ import os
 
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 
-# Twitter Apps authentication
-CONSUMER_TOKEN = ''
-CONSUMER_SECRET = ''
-ACCESS_TOKEN = ''
-ACCESS_SECRET = ''
+# Twitter credentials
+TWITTER_CONSUMER_TOKEN = ''
+TWITTER_CONSUMER_SECRET = ''
+TWITTER_ACCESS_TOKEN = ''
+TWITTER_ACCESS_SECRET = ''
+
+# Twilio credentials
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
 
 # Things to track
 TO_TRACK = [
@@ -20,5 +24,6 @@ TO_TRACK = [
 # DateTime format
 DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
 
+
 # Used to get twitter API credential
-from twitter.local_settings import *
+from local_settings import *
