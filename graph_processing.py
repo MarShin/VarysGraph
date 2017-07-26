@@ -1,9 +1,12 @@
-from twitter.models import Company
+import datetime
+
 from twilio.rest import Client
+from twitter.models import Company
 from twitter import settings
 from neomodel import db
 
 class Graph:
+    DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
     def __init(self):
         self.score = 0
         db.set_connection(settings.NEO4J_URL)
@@ -11,8 +14,20 @@ class Graph:
     # To init Company, Tweets, News Node
     def init_db(self):
         print 'initing db for first time setup'
-        for company in settings.TO_TRACK:
-            print company
+        companies_attributes = []
+        for company_name in settings.TO_TRACK:
+            print company_name
+            # TODO: add other details with Google Knowlege Graph
+            company = {
+                'id_str': company_name,
+                'name': company_name,
+                'created_at': datetime.datetime.now().strftime(self.DATETIME_FORMAT),
+                'modified_at': datetime.datetime.now().strftime(self.DATETIME_FORMAT),
+            }
+            companies_attributes.append(company)
+
+        print companies_attributes
+        # companies = Company.create_or_update(*companies_attributes)
         # pass
 
     def compute_score():

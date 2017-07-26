@@ -85,4 +85,4 @@ auth=OAuthHandler(ckey,csecret)
 auth.set_access_token(atoken,asecret)
 
 twitterStream=  Stream(auth, listener(count))
-twitterStream.filter(track=["Trump"])
+twitterStream.filter(track=['Trump'])

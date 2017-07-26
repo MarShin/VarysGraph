@@ -5,7 +5,7 @@ import neomodel
 
 class Company(neomodel.StructuredNode):
     id_str = neomodel.StringProperty(unique_index=True, required=True)
-    name = neomodel.StringProperty(required=True)
+    name = neomodel.StringProperty(required=False)
     created_at = neomodel.DateTimeProperty(required=False)
     modified = neomodel.DateTimeProperty(required=False)
     description = neomodel.StringProperty(required=False)
@@ -38,6 +38,8 @@ class Tweet(neomodel.StructuredNode):
     coordinates = neomodel.ArrayProperty(required=False, default=[])
     lang = neomodel.StringProperty(required=False)
     features = neomodel.JSONProperty(required=False, default={})
+    sentiment_polarity = neomodel.FloatProperty(required=False)
+    sentiment_subjectivity = neomodel.FloatProperty(required=False)
 
     retweets = neomodel.RelationshipTo('Tweet', 'RETWEETS')
     mentions = neomodel.RelationshipTo('User', 'MENTIONS')

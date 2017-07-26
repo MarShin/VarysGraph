@@ -20,8 +20,6 @@ class TweetProcessing:
             self.author = status.author
 
     def compute_sentiment(self, tweet):
-        print 'analyzing sentiment'
-
         text =" ".join(re.findall("[a-zA-Z]+", tweet))
         print text.strip()
         blob = TextBlob(text.strip())
