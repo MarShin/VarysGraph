@@ -1,6 +1,10 @@
-from neomodel import db
-db.set_connection('bolt://neo4j:password@localhost:7687')
+# from neomodel import db
+# print 'setting db connection'
+# db.set_connection('bolt://neo4j:password@localhost:7687')
 
+NEO4J_URL = 'bolt://neo4j:password@localhost:7687'
+
+print 'setting rabbitmq'
 # RabbitMQ URL
 BROKER_URL = "amqp://guest:guest@127.0.0.1:5672/"
 

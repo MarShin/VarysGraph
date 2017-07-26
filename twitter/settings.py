@@ -12,6 +12,8 @@ TWITTER_ACCESS_SECRET = ''
 TWILIO_ACCOUNT_SID = ''
 TWILIO_AUTH_TOKEN = ''
 
+NEO4J_URL = ''
+
 # Things to track
 TO_TRACK = [
     'tesla',
