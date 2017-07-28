@@ -3,13 +3,14 @@ import datetime
 from twilio.rest import Client
 from twitter.models import Company
 from twitter import settings
-from neomodel import db
+from neomodel import config
 
 class Graph:
     DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
     def __init(self):
         self.score = 0
-        db.set_connection(settings.NEO4J_URL)
+        config.DATABASE_URL = settings.NEO4J_URL
+        # db.set_connection(settings.NEO4J_URL)
 
     # To init Company, Tweets, News Node
     def init_db(self):
