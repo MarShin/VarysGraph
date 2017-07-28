@@ -1,6 +1,5 @@
 from twitter.tweet_processing import TweetProcessing
 from twitter.tasks import bulk_parsing
-from alert import *
 
 def stream_pipeline(statuses):
     users_attributes, tweets_attributes = TweetProcessing.prepare_batch_processing(statuses)
