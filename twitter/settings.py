@@ -15,11 +15,12 @@ TWILIO_AUTH_TOKEN = ''
 NEO4J_URL = ''
 
 # Things to track: Company name
+# STAGE ONE ONLY 1 COMPANY
 TO_TRACK = [
     'Tesla',
-    'Samsung',
-    'Snapchat',
-    'Google',
+    # 'Samsung',
+    # 'Snapchat',
+    # 'Google',
     ]
 
 # DateTime format

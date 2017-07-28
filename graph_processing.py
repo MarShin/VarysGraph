@@ -2,18 +2,14 @@ import datetime
 
 from twitter.models import Company
 from twitter import settings
-from neomodel import config
 
+# for one company
 class Graph:
     DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
     def __init(self):
-        self.score = 0
-        config.DATABASE_URL = settings.NEO4J_URL
-        # db.set_connection(settings.NEO4J_URL)
+        # self.scores = {}
 
-    @staticmethod
-    # TODO: prepare Tweet & News attribue
-    def prepare_attributes():
+    def prepare_attributes(self):
         companies_attributes = []
         for company_name in settings.TO_TRACK:
             print company_name
@@ -21,14 +17,19 @@ class Graph:
             company = {
                 'id_str': company_name,
                 'name': company_name,
-                'created_at': datetime.datetime.now().strftime(self.DATETIME_FORMAT),
-                'modified_at': datetime.datetime.now().strftime(self.DATETIME_FORMAT),
+                'brand_score': 0.0,
+                'tweet_score': 0.0,
+                'news_score': 0.0
             }
             companies_attributes.append(company)
+            # self.scores[company_name] = {
+            #     'current_tweet_score': 0.0,
+            #     'current_news_score': 0.0,
+            #     'brand_score': 0.0
+            # }
         return companies_attributes
 
-    # To init Company, Tweets, News Node
-    @classmethod
+    # To init Company
     def init_db(cls, companies_attributes):
         print 'initing db for first time setup'
         companies = Company.create_or_update(*companies_attributes)

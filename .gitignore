@@ -2,3 +2,4 @@
 *.txt
 .ipynb_checkpoints/
 *.ipynb
+test_db.py
