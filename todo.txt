@@ -1,0 +1,11 @@
+associate company node to tweet Node
+read news txt -> News Node
+associate news node to company Node
+DEMO: onKeyPress -> change company node score
+DEMO: onKeyPress -> alert.send_sms() & alert.send_email()
+
+//if have time
+compute batch tweet score for every batch of tweet
+compute batch news score for every batch of news
+compute company scores base on tweet + news every batch
+watch company score > threshold -> trigger send_sms() & send_email()

@@ -1,5 +1,5 @@
 *.pyc
-*.txt
 .ipynb_checkpoints/
 *.ipynb
 test_db.py
+log_twitter.txt
