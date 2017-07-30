@@ -2,7 +2,7 @@ from twitter.streaming_api import Streaming
 from twitter.utils import stream_pipeline
 from twitter import settings
 from graph.graph_processing import Graph
-from alert import Alert
+from graph.alert import Alert
 from neomodel import db
 
 print 'initiating Streamer'
