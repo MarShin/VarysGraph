@@ -1,13 +1,15 @@
 from twitter.streaming_api import Streaming
 from twitter.utils import stream_pipeline
 from twitter import settings
-from graph_processing import Graph
+from graph.graph_processing import Graph
 from alert import Alert
 from neomodel import db
 
 print 'initiating Streamer'
 db.set_connection(settings.NEO4J_URL)
+
 first_time = False
+# first_time = True
 
 if first_time:
     graph = Graph()

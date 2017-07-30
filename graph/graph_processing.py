@@ -6,7 +6,7 @@ from twitter import settings
 # for one company
 class Graph:
     DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
-    def __init(self):
+    # def __init(self):
         # self.scores = {}
 
     def prepare_attributes(self):
@@ -32,7 +32,7 @@ class Graph:
     # To init Company
     def init_db(cls, companies_attributes):
         print 'initing db for first time setup'
-        companies = Company.create_or_update(*companies_attributes)
+        companies = Company.create(*companies_attributes)
 
     def compute_score():
         pass

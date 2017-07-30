@@ -3,7 +3,8 @@ import logging
 from tweepy import Status
 from textblob import TextBlob
 import re
-from twitter.models import Tweet, User
+from twitter.models import Tweet, User, Company
+from twitter import settings
 
 logger = logging.getLogger(__name__)
 
@@ -21,7 +22,6 @@ class TweetProcessing:
 
     def compute_sentiment(self, tweet):
         text =" ".join(re.findall("[a-zA-Z]+", tweet))
-        print text.strip()
         blob = TextBlob(text.strip())
         sentiment = 0
         subjectivity = 0
@@ -29,6 +29,15 @@ class TweetProcessing:
             sentiment += sen.sentiment.polarity
             subjectivity += sen.sentiment.subjectivity
         return sentiment, subjectivity
+
+    @staticmethod
+    def find_company(tweet):
+        companies = settings.TO_TRACK
+        for company in companies:
+            if re.search(company, tweet, re.IGNORECASE):
+                return company
+        # if can't identify, default to Tesla
+        return 'Tesla'
 
     def prepare_tweet_attributes(self):
         # the date needs to be formated as a string to be serialized.
@@ -85,7 +94,6 @@ class TweetProcessing:
              'modified': datetime.datetime.strptime(u_attr['modified'], cls.DATETIME_FORMAT)}
         ) for u_attr in users_attributes]
 
-        # * to unpack the arguments out of a list or tuple
         users = User.create_or_update(*users_attributes)
 
         [t_attr.update(
@@ -97,3 +105,7 @@ class TweetProcessing:
 
         for k, tweet in enumerate(tweets):
             users[k].posts.connect(tweet)
+            # Connect tweet with the company it mentions
+            company_name = cls.find_company(tweet.text)
+            company_node = Company.nodes.get(name=company_name)
+            tweet.tweet_about.connect(company_node)

@@ -15,17 +15,15 @@ TWILIO_AUTH_TOKEN = ''
 NEO4J_URL = ''
 
 # Things to track: Company name
-# STAGE ONE ONLY 1 COMPANY
 TO_TRACK = [
     'Tesla',
-    # 'Samsung',
-    # 'Snapchat',
-    # 'Google',
+    'Samsung',
+    'Snapchat',
+    'Google',
     ]
 
 # DateTime format
 DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
 
-
 # Used to get twitter API credential
-from local_settings import *
+from graph.local_settings import *
