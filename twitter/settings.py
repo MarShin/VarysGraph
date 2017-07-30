@@ -12,6 +12,9 @@ TWITTER_ACCESS_SECRET = ''
 TWILIO_ACCOUNT_SID = ''
 TWILIO_AUTH_TOKEN = ''
 
+# SendGrid credentials
+SENDGRID_API_KEY = ''
+
 NEO4J_URL = ''
 
 # Things to track: Company name

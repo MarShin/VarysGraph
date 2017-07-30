@@ -19,7 +19,9 @@ if first_time:
 
     graph.init_db(companies_attributes)
     print 'DB initiated!!!'
+
     # Alert.send_sms('+85262308397', 'Tesla score increased! check our graph')
+    # Alert.send_email('martinshin95@gmail.com', 'Welcome to Varys')
 else:
     streamer = Streaming(pipeline=stream_pipeline, batch_size=10)
     print 'start streaming... '
