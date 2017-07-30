@@ -2,6 +2,18 @@ import datetime
 
 import neomodel
 
+class Event(neomodel.StructuredNode):
+    name = neomodel.StringProperty(unique_index=True, required=True)
+    weighting = neomodel.FloatProperty(required=False)
+    modified = neomodel.DateTimeProperty(required=False)
+
+    related_to = neomodel.RelationshipTo('Company', 'ABOUT')
+    tweet_from = neomodel.RelationshipTo('Tweet', 'TWEET_FROM')
+    cited_from = neomodel.RelationshipTo('News', 'CITE_FROM')
+
+    def save(self):
+        self.modified = datetime.datetime.now()
+        super(Event, self).save()
 
 class Company(neomodel.StructuredNode):
     id_str = neomodel.StringProperty(unique_index=True, required=True)
@@ -15,9 +27,6 @@ class Company(neomodel.StructuredNode):
     stock_price = neomodel.FloatProperty(required=False)
     stock_change = neomodel.FloatProperty(required=False)
     mkt_cap = neomodel.FloatProperty(required=False)
-
-    cites = neomodel.RelationshipTo('News', 'CITES')
-    contains = neomodel.RelationshipTo('Link', 'CONTAINS')
 
     def save(self):
         self.modified = datetime.datetime.now()
