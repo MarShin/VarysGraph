@@ -16,7 +16,6 @@ class Company(neomodel.StructuredNode):
     stock_change = neomodel.FloatProperty(required=False)
     mkt_cap = neomodel.FloatProperty(required=False)
 
-    tweets = neomodel.RelationshipTo('Tweet', 'TWEETS')
     cites = neomodel.RelationshipTo('News', 'CITES')
     contains = neomodel.RelationshipTo('Link', 'CONTAINS')
 
@@ -49,6 +48,7 @@ class Tweet(neomodel.StructuredNode):
     tags = neomodel.RelationshipTo('Hashtag', 'TAGS')
     contains = neomodel.RelationshipTo('Link', 'CONTAINS')
     quotes = neomodel.Relationship('Tweet', 'QUOTES')
+    tweet_about = neomodel.RelationshipTo('Company', 'TWEETS')
 
     def save(self):
         self.modified = datetime.datetime.now()

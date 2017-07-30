@@ -1,6 +1,6 @@
 from twitter.celery import app
 from twitter.tweet_processing import TweetProcessing
-from graph_processing import Graph
+from graph.graph_processing import Graph
 
 @app.task
 def bulk_parsing(users_attributes, tweets_attributes):
