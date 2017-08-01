@@ -46,6 +46,9 @@ getch = _Getch()
 if (getch.__call__() == 'k'):
     # Alert.send_email('martinshin95@gmail.com', 'Varys Alert: There is a score change Tesla')
     # Alert.send_sms('+85262308397', 'Varys Alert: There is a score change in the Tesla')
-    event = Event(name='Model 3 Delivered').save()
+    Event(name='Model 3 Delivered').save()
+    event = Event.nodes.get(name='Model 3 Delivered')
+    print 'event node '
+    print event
     tesla = Company.nodes.get(name='Tesla')
     event.related_to.connect(tesla)

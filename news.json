@@ -1,0 +1,3214 @@
+[
+    {
+        "publisher": "Business Insider",
+        "headline": "2 ex-Tesla engineers are using an old trick from Elon Musk to build their new startup",
+        "create_at": "2017-07-18T21:30:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=FFtC5Jx-PeTXNLxHBMItBmQVG_sWw9CMldtvUbMcZ6I&v=1&r=http%3a%2f%2fwww.businessinsider.com%2fex-tesla-engineers-lvl5-map-startup-self-driving-cars-2017-7&p=DevEx,5013.1",
+        "score": 0.006,
+        "neg_words": [
+            [
+                "drivers",
+                -0.9660000000000001
+            ],
+            [
+                "mapping",
+                -0.721
+            ],
+            [
+                "over",
+                -0.604
+            ],
+            [
+                "cars",
+                -0.572
+            ],
+            [
+                "rely",
+                -0.552
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                5.496
+            ],
+            [
+                "s",
+                3.0509999999999997
+            ],
+            [
+                "company",
+                2.37
+            ],
+            [
+                "model",
+                1.3980000000000001
+            ],
+            [
+                "car",
+                0.856
+            ]
+        ],
+        "key_words": [
+            [
+                "maps",
+                18
+            ],
+            [
+                "kouri",
+                16
+            ],
+            [
+                "cars",
+                13
+            ],
+            [
+                "tesla",
+                12
+            ],
+            [
+                "data",
+                11
+            ]
+        ]
+    },
+    {
+        "publisher": "Australian Financial Review",
+        "headline": "Sales slump undermines Myer turnaround plan",
+        "create_at": "2017-07-20T09:23:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=gXtwlGIc_v78KNeMPFSFY3B77r9jyN_RwcKFMyQuuQQ&v=1&r=http%3a%2f%2fwww.afr.com%2fbrand%2fchanticleer%2fsales-slump-undermines-myer-turnaround-plan-20170719-gxetod&p=DevEx,5017.1",
+        "score": 0.001,
+        "neg_words": [
+            [
+                "jones",
+                -1.035
+            ],
+            [
+                "sales",
+                -0.6839999999999999
+            ],
+            [
+                "away",
+                -0.62
+            ],
+            [
+                "down",
+                -0.506
+            ],
+            [
+                "over",
+                -0.45299999999999996
+            ]
+        ],
+        "pos_words": [
+            [
+                "company",
+                2.844
+            ],
+            [
+                "per",
+                1.078
+            ],
+            [
+                "now",
+                0.875
+            ],
+            [
+                "store",
+                0.715
+            ],
+            [
+                "years",
+                0.54
+            ]
+        ],
+        "key_words": [
+            [
+                "myer",
+                20
+            ],
+            [
+                "sales",
+                19
+            ],
+            [
+                "per",
+                11
+            ],
+            [
+                "per cent",
+                10
+            ],
+            [
+                "cent",
+                10
+            ]
+        ]
+    },
+    {
+        "publisher": "Investor Place",
+        "headline": "Tesla Inc (TSLA) CEO Elon Musk Admits TSLA Stock Is Overpriced",
+        "create_at": "2017-07-20T09:14:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=EsKFOwjCpyylzNPBNGviuk8LoSrLk2xZ4rRgBJWuIEw&v=1&r=http%3a%2f%2finvestorplace.com%2f2017%2f07%2ftesla-inc-ceo-elon-musk-admits-tsla-stock-overpriced-ggsyn%2f&p=DevEx,5019.1",
+        "score": -0.021,
+        "neg_words": [
+            [
+                "right deserve",
+                -0.828
+            ],
+            [
+                "higher right deserve",
+                -0.828
+            ],
+            [
+                "higher right",
+                -0.828
+            ],
+            [
+                "deserve",
+                -0.828
+            ],
+            [
+                "feature",
+                -0.552
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                8.136
+            ],
+            [
+                "tesla",
+                2.748
+            ],
+            [
+                "company",
+                1.896
+            ],
+            [
+                "musk",
+                0.745
+            ],
+            [
+                "car",
+                0.642
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                8
+            ],
+            [
+                "tesla",
+                6
+            ],
+            [
+                "musk",
+                5
+            ],
+            [
+                "stock",
+                5
+            ],
+            [
+                "2017",
+                5
+            ]
+        ]
+    },
+    {
+        "publisher": "MSN",
+        "headline": "Tesla Faces 3 Serious Issues That Should Terrify Any Investor Looking to Buy the Stock",
+        "create_at": "2017-07-20T08:40:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=sOASLSoCZhIv18zK6bpm9ULbdNsOJ2YqpIN0Wfu5aU8&v=1&r=http%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fcompanies%2ftesla-faces-3-serious-issues-that-should-terrify-any-investor-looking-to-buy-the-stock%2far-AAotdJr&p=DevEx,5021.1",
+        "score": -0.076,
+        "neg_words": [
+            [
+                "credit",
+                -20.688
+            ],
+            [
+                "tax credit",
+                -15.203999999999999
+            ],
+            [
+                "tax",
+                -11.382000000000001
+            ],
+            [
+                "thestreet",
+                -11.178
+            ],
+            [
+                "price",
+                -5.304
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                47.174
+            ],
+            [
+                "s",
+                21.357
+            ],
+            [
+                "board",
+                8.68
+            ],
+            [
+                "company",
+                8.532
+            ],
+            [
+                "model",
+                8.155000000000001
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                103
+            ],
+            [
+                "tax",
+                42
+            ],
+            [
+                "musk",
+                35
+            ],
+            [
+                "board",
+                35
+            ],
+            [
+                "model",
+                35
+            ]
+        ]
+    },
+    {
+        "publisher": "techzolix.com",
+        "headline": "Brokerages Set Haverty Furniture Companies, Inc. (NYSE:HVT) Target Price at $28.00",
+        "create_at": "2017-07-20T07:54:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=41WNWZzJbQaq8VH_F9VaBZRUsA596V0D3U0sFZaJ0YA&v=1&r=http%3a%2f%2ftechzolix.com%2f2017%2f07%2fbrokerages-set-haverty-furniture-companies-inc-nyse-hvt%2f&p=DevEx,5023.1",
+        "score": 0.001,
+        "neg_words": [
+            [
+                "shares",
+                -1.56
+            ],
+            [
+                "july",
+                -0.6000000000000001
+            ],
+            [
+                "buy",
+                -0.474
+            ],
+            [
+                "stock",
+                -0.45999999999999996
+            ],
+            [
+                "investors",
+                -0.42000000000000004
+            ]
+        ],
+        "pos_words": [
+            [
+                "company",
+                3.3179999999999996
+            ],
+            [
+                "s",
+                2.034
+            ],
+            [
+                "tesla",
+                0.916
+            ],
+            [
+                "companies",
+                0.848
+            ],
+            [
+                "now",
+                0.7
+            ]
+        ],
+        "key_words": [
+            [
+                "shares",
+                24
+            ],
+            [
+                "inc",
+                16
+            ],
+            [
+                "nyse",
+                15
+            ],
+            [
+                "rating",
+                13
+            ],
+            [
+                "stock",
+                10
+            ]
+        ]
+    },
+    {
+        "publisher": "mail4rosey.com",
+        "headline": "Buying Stock for Yourself or as a Gift has Never Been Easier! #HappyInvesting #GiveStockpile",
+        "create_at": "2017-07-20T05:54:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=pr0zKuoXkpwAsNcN_qWqhcLxwCsGkLPriYE_qwHL1is&v=1&r=http%3a%2f%2fwww.mail4rosey.com%2f2017%2f07%2fbuying-stock-for-yourself-or-as-gift.html&p=DevEx,5027.1",
+        "score": -0.003,
+        "neg_words": [
+            [
+                "i've",
+                -0.345
+            ],
+            [
+                "stocks",
+                -0.183
+            ],
+            [
+                "option",
+                -0.172
+            ],
+            [
+                "retirement",
+                -0.138
+            ],
+            [
+                "stock",
+                -0.138
+            ]
+        ],
+        "pos_words": [
+            [
+                "interesting",
+                0.38
+            ],
+            [
+                "market",
+                0.25
+            ],
+            [
+                "idea",
+                0.143
+            ],
+            [
+                "more",
+                0.122
+            ],
+            [
+                "fun",
+                0.095
+            ]
+        ],
+        "key_words": [
+            [
+                "gift",
+                3
+            ],
+            [
+                "stock",
+                3
+            ],
+            [
+                "never",
+                3
+            ],
+            [
+                "stocks",
+                3
+            ],
+            [
+                "thank",
+                2
+            ]
+        ]
+    },
+    {
+        "publisher": "Pantagraph",
+        "headline": "How Tesla Makes Its Money: A Slicing and Dicing of Elon Musk's Fast-Growing Empire",
+        "create_at": "2017-07-20T01:56:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=UZ9tQayUSeh78M6Ovghiv4ZUkbvXiQib0SuQokDpUjQ&v=1&r=http%3a%2f%2fwww.pantagraph.com%2fbusiness%2finvestment%2fmarkets-and-stocks%2fhow-tesla-makes-its-money-a-slicing-and-dicing-of%2farticle_1bd21e7e-0a7b-583e-93b1-b5ab243320d7.html&p=DevEx,5037.1",
+        "score": 0.009,
+        "neg_words": [
+            [
+                "tesla's",
+                -0.96
+            ],
+            [
+                "company's",
+                -0.896
+            ],
+            [
+                "fall",
+                -0.482
+            ],
+            [
+                "look",
+                -0.44999999999999996
+            ],
+            [
+                "investors",
+                -0.42000000000000004
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                9.618
+            ],
+            [
+                "company",
+                2.37
+            ],
+            [
+                "model",
+                1.631
+            ],
+            [
+                "business",
+                1.088
+            ],
+            [
+                "s",
+                1.017
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                21
+            ],
+            [
+                "revenue",
+                13
+            ],
+            [
+                "tesla's",
+                10
+            ],
+            [
+                "gross",
+                8
+            ],
+            [
+                "business",
+                8
+            ]
+        ]
+    },
+    {
+        "publisher": "CNBC",
+        "headline": "6 things Elon Musk must do now to keep Tesla on track",
+        "create_at": "2017-07-20T01:16:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=8dCXKNYaXB1KIf8BFEddyg8zKquN09SupsHSAGPhZaE&v=1&r=http%3a%2f%2fwww.cnbc.com%2f2017%2f07%2f19%2f6-things-elon-musk-must-do-now-to-keep-tesla-on-track.html&p=DevEx,5039.1",
+        "score": 0.007,
+        "neg_words": [
+            [
+                "tesla's",
+                -0.864
+            ],
+            [
+                "sachs",
+                -0.621
+            ],
+            [
+                "goldman sachs",
+                -0.621
+            ],
+            [
+                "down",
+                -0.506
+            ],
+            [
+                "over",
+                -0.45299999999999996
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                10.076
+            ],
+            [
+                "company",
+                3.3179999999999996
+            ],
+            [
+                "model",
+                1.864
+            ],
+            [
+                "musk",
+                1.49
+            ],
+            [
+                "suv",
+                1.142
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                22
+            ],
+            [
+                "musk",
+                10
+            ],
+            [
+                "market",
+                9
+            ],
+            [
+                "tesla's",
+                9
+            ],
+            [
+                "model",
+                8
+            ]
+        ]
+    },
+    {
+        "publisher": "mercurynews.com",
+        "headline": "Hewlett Packard gains stand out as local stocks flex muscles",
+        "create_at": "2017-07-19T21:32:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=Yf1_QcXEdSeh7oqAHQZIHxiQqFHO1wumQxD200tTOJk&v=1&r=http%3a%2f%2fwww.mercurynews.com%2f2017%2f07%2f19%2fhewlett-packard-gains-stand-out-as-local-stocks-flex-muscles%2f&p=DevEx,5041.1",
+        "score": -0.003,
+        "neg_words": [
+            [
+                "percent",
+                -0.672
+            ],
+            [
+                "dow",
+                -0.414
+            ],
+            [
+                "dow jones",
+                -0.345
+            ],
+            [
+                "jones",
+                -0.345
+            ],
+            [
+                "end day",
+                -0.276
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                5.084999999999999
+            ],
+            [
+                "tesla",
+                0.458
+            ],
+            [
+                "posted",
+                0.333
+            ],
+            [
+                "market",
+                0.25
+            ],
+            [
+                "gains",
+                0.196
+            ]
+        ],
+        "key_words": [
+            [
+                "percent",
+                8
+            ],
+            [
+                "s",
+                5
+            ],
+            [
+                "rose",
+                5
+            ],
+            [
+                "day",
+                5
+            ],
+            [
+                "close",
+                4
+            ]
+        ]
+    },
+    {
+        "publisher": "Observer",
+        "headline": "Tesla’s Stock Dropped $12 Billion Because It Is Trying to Do Too Many Things at Once",
+        "create_at": "2017-07-19T20:46:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=o1jocfw-tpKEDUiQx7p-4cbaVY0gQvJEP-hdOXqF22k&v=1&r=http%3a%2f%2fobserver.com%2f2017%2f07%2fteslas-stock-dropped-12-billion-trying-to-do-too-many-things-at-once-elon-musk-investing%2f&p=DevEx,5047.1",
+        "score": -0.007,
+        "neg_words": [
+            [
+                "sachs",
+                -1.242
+            ],
+            [
+                "goldman sachs",
+                -1.242
+            ],
+            [
+                "established",
+                -1.035
+            ],
+            [
+                "down",
+                -0.759
+            ],
+            [
+                "select",
+                -0.621
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                23.391
+            ],
+            [
+                "tesla",
+                11.450000000000001
+            ],
+            [
+                "company",
+                4.266
+            ],
+            [
+                "tesla s",
+                1.708
+            ],
+            [
+                "model",
+                1.165
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                25
+            ],
+            [
+                "s",
+                23
+            ],
+            [
+                "company",
+                9
+            ],
+            [
+                "tesla s",
+                7
+            ],
+            [
+                "value",
+                7
+            ]
+        ]
+    },
+    {
+        "publisher": "CNBC",
+        "headline": "David Einhorn is getting killed by his ‘bubble basket’ short bets against Tesla, Amazon",
+        "create_at": "2017-07-19T16:58:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=scqLoCds4fD8dBPDhO6DvIL2c3AL2CqD_lwgUbdSboI&v=1&r=http%3a%2f%2fwww.cnbc.com%2f2017%2f07%2f17%2fdavid-einhorn-getting-killed-by-bubble-basket-shorts-tesla-amazon.html&p=DevEx,5055.1",
+        "score": -0.003,
+        "neg_words": [
+            [
+                "percent",
+                -0.672
+            ],
+            [
+                "higher right",
+                -0.414
+            ],
+            [
+                "higher right deserve",
+                -0.414
+            ],
+            [
+                "right deserve",
+                -0.414
+            ],
+            [
+                "deserve",
+                -0.414
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                2.748
+            ],
+            [
+                "fund",
+                0.5700000000000001
+            ],
+            [
+                "company",
+                0.474
+            ],
+            [
+                "musk",
+                0.44699999999999995
+            ],
+            [
+                "quarter",
+                0.368
+            ]
+        ],
+        "key_words": [
+            [
+                "percent",
+                8
+            ],
+            [
+                "tesla",
+                6
+            ],
+            [
+                "tsla",
+                5
+            ],
+            [
+                "manager",
+                4
+            ],
+            [
+                "apple",
+                4
+            ]
+        ]
+    },
+    {
+        "publisher": "Billings Gazette",
+        "headline": "Elon Musk Is Right About AI",
+        "create_at": "2017-07-19T15:51:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=yrUK0B1B5t287eRlIjGmoxM65Ls_A12E67nnWBE3Rsc&v=1&r=http%3a%2f%2fbillingsgazette.com%2fbusiness%2finvestment%2fmarkets-and-stocks%2felon-musk-is-right-about-ai%2farticle_12f34aab-9ce8-5a0a-9346-9f1157b727a0.html&p=DevEx,5059.1",
+        "score": 0.004,
+        "neg_words": [
+            [
+                "movie",
+                -0.414
+            ],
+            [
+                "--",
+                -0.312
+            ],
+            [
+                "governors",
+                -0.31
+            ],
+            [
+                "threat",
+                -0.276
+            ],
+            [
+                "stocks",
+                -0.244
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                2.29
+            ],
+            [
+                "ai",
+                1.8589999999999998
+            ],
+            [
+                "musk",
+                0.8939999999999999
+            ],
+            [
+                "elon",
+                0.448
+            ],
+            [
+                "forced",
+                0.429
+            ]
+        ],
+        "key_words": [
+            [
+                "ai",
+                13
+            ],
+            [
+                "robots",
+                7
+            ],
+            [
+                "--",
+                6
+            ],
+            [
+                "musk",
+                6
+            ],
+            [
+                "people",
+                6
+            ]
+        ]
+    },
+    {
+        "publisher": "thedrive.com",
+        "headline": "Elon Musk Is Wrong About the Future of Self-Driving Electric Cars in America",
+        "create_at": "2017-07-19T15:11:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=pUQyOi12FAY36Fbq9uJgt4Myu2QBhZmZmhAk3EFZpuc&v=1&r=http%3a%2f%2fwww.thedrive.com%2fopinion%2f12606%2felon-musk-is-wrong-about-the-future-of-self-driving-electric-cars-in-america&p=DevEx,5065.1",
+        "score": 0.003,
+        "neg_words": [
+            [
+                "cars",
+                -1.012
+            ],
+            [
+                "price",
+                -0.884
+            ],
+            [
+                "electric",
+                -0.736
+            ],
+            [
+                "goldman sachs",
+                -0.621
+            ],
+            [
+                "sachs",
+                -0.621
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                6.101999999999999
+            ],
+            [
+                "new",
+                1.582
+            ],
+            [
+                "car",
+                1.284
+            ],
+            [
+                "ev",
+                0.9630000000000001
+            ],
+            [
+                "elon",
+                0.672
+            ]
+        ],
+        "key_words": [
+            [
+                "cars",
+                23
+            ],
+            [
+                "electric",
+                16
+            ],
+            [
+                "new",
+                14
+            ],
+            [
+                "electric cars",
+                11
+            ],
+            [
+                "2025",
+                6
+            ]
+        ]
+    },
+    {
+        "publisher": "benchmarkmonitor.com",
+        "headline": "Tesla Motors Inc (NASDAQ:TSLA)’s Solar City co-founder Peter Rive leaving the company",
+        "create_at": "2017-07-19T13:16:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=-lc0_Yk_JNeYh3Ip9MDvRlImchMdFTFh9SH8V-pFlms&v=1&r=http%3a%2f%2fwww.benchmarkmonitor.com%2ftesla-motors-inc-nasdaqtslas-solar-city-co-founder-peter-rive-leaving-the-company%2f237084&p=DevEx,5077.1",
+        "score": 0.021,
+        "neg_words": [
+            [
+                "price",
+                -2.21
+            ],
+            [
+                "analyst",
+                -1.053
+            ],
+            [
+                "stock",
+                -0.644
+            ],
+            [
+                "away",
+                -0.62
+            ],
+            [
+                "tesla spokesperson",
+                -0.414
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                23.391
+            ],
+            [
+                "tesla",
+                5.038
+            ],
+            [
+                "company",
+                1.896
+            ],
+            [
+                "solar",
+                1.1219999999999999
+            ],
+            [
+                "roof",
+                0.666
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                23
+            ],
+            [
+                "stock",
+                14
+            ],
+            [
+                "analyst s",
+                13
+            ],
+            [
+                "analyst",
+                13
+            ],
+            [
+                "tesla",
+                11
+            ]
+        ]
+    },
+    {
+        "publisher": "Market Watch",
+        "headline": "Netflix joins Tesla and Amazon at nosebleed heights, and analysts are sounding an alarm",
+        "create_at": "2017-07-19T10:54:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=quTYrD4Mya81Fdzv76W1tDZhAxWYhOA4uH6hJnTdgGs&v=1&r=http%3a%2f%2fwww.marketwatch.com%2fstory%2fnetflix-joins-tesla-and-amazon-at-nosebleed-heights-and-analysts-are-sounding-an-alarm-2017-07-18&p=DevEx,5083.1",
+        "score": 0.013,
+        "neg_words": [
+            [
+                "price",
+                -1.105
+            ],
+            [
+                "ratio",
+                -0.414
+            ],
+            [
+                "shares",
+                -0.39
+            ],
+            [
+                "positive",
+                -0.344
+            ],
+            [
+                "covering",
+                -0.344
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                14.238
+            ],
+            [
+                "company",
+                1.896
+            ],
+            [
+                "billion",
+                1.23
+            ],
+            [
+                "company s",
+                0.48
+            ],
+            [
+                "tesla",
+                0.458
+            ]
+        ],
+        "key_words": [
+            [
+                "netflix",
+                17
+            ],
+            [
+                "s",
+                14
+            ],
+            [
+                "analysts",
+                6
+            ],
+            [
+                "shares",
+                6
+            ],
+            [
+                "stock",
+                6
+            ]
+        ]
+    },
+    {
+        "publisher": "Los Angeles Times",
+        "headline": "Tesla adds two 'outside' board directors from the media world",
+        "create_at": "2017-07-18T21:10:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=sRqekLZux0Ichygv14bg9rQKPHbc40mi-_uLESzfAME&v=1&r=http%3a%2f%2fwww.latimes.com%2fbusiness%2fautos%2fla-fi-hy-tesla-murdoch-20170718-story.html&p=DevEx,5091.1",
+        "score": 0.087,
+        "neg_words": [
+            [
+                "activist",
+                -0.31
+            ],
+            [
+                "audi",
+                -0.276
+            ],
+            [
+                "two",
+                -0.186
+            ],
+            [
+                "top",
+                -0.18
+            ],
+            [
+                "founder",
+                -0.172
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                16.272
+            ],
+            [
+                "tesla",
+                2.748
+            ],
+            [
+                "gov jerry brown",
+                1.7159999999999997
+            ],
+            [
+                "gov jerry",
+                1.7159999999999997
+            ],
+            [
+                "jerry brown",
+                1.7159999999999997
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                16
+            ],
+            [
+                "j",
+                8
+            ],
+            [
+                "brown",
+                6
+            ],
+            [
+                "jerry",
+                6
+            ],
+            [
+                "musk",
+                6
+            ]
+        ]
+    },
+    {
+        "publisher": "Business Insider",
+        "headline": "Tesla jumps after driver now says autopilot wasn't to blame in Minnesota crash",
+        "create_at": "2017-07-18T19:06:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=f1xvgl3JTclCgl1CJli6mbAriQVktHBGu27GobNsl0s&v=1&r=http%3a%2f%2fwww.businessinsider.com%2ftesla-stock-price-jumps-after-driver-reverses-claim-of-autopilot-fault-in-mennesota-crash-2017-7&p=DevEx,5093.1",
+        "score": -0.016,
+        "neg_words": [
+            [
+                "crash",
+                -2.9299999999999997
+            ],
+            [
+                "autopilot",
+                -0.836
+            ],
+            [
+                "minnesota",
+                -0.69
+            ],
+            [
+                "marsh",
+                -0.414
+            ],
+            [
+                "saturday",
+                -0.379
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                2.29
+            ],
+            [
+                "s",
+                1.017
+            ],
+            [
+                "roof",
+                0.333
+            ],
+            [
+                "model",
+                0.233
+            ],
+            [
+                "elon",
+                0.224
+            ]
+        ],
+        "key_words": [
+            [
+                "crash",
+                5
+            ],
+            [
+                "tesla",
+                5
+            ],
+            [
+                "driver",
+                4
+            ],
+            [
+                "autopilot",
+                4
+            ],
+            [
+                "minnesota",
+                2
+            ]
+        ]
+    },
+    {
+        "publisher": "Market Watch",
+        "headline": "Here’s why some say it’s time to tread carefully with Netflix shares",
+        "create_at": "2017-07-18T15:08:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=JCV4yYRAy_fh6_o9YjHwsB2vd44vURO_GhHQYg_qWM4&v=1&r=http%3a%2f%2fwww.marketwatch.com%2fstory%2fits-been-a-great-ride-for-netflix-but-you-may-want-to-hop-off-here-2017-07-18&p=DevEx,5099.1",
+        "score": 0.005,
+        "neg_words": [
+            [
+                "goldman sachs",
+                -1.242
+            ],
+            [
+                "sachs",
+                -1.242
+            ],
+            [
+                "price",
+                -1.105
+            ],
+            [
+                "over",
+                -0.755
+            ],
+            [
+                "ratio",
+                -0.621
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                20.339999999999996
+            ],
+            [
+                "tesla",
+                1.374
+            ],
+            [
+                "company",
+                0.948
+            ],
+            [
+                "now",
+                0.875
+            ],
+            [
+                "more",
+                0.732
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                20
+            ],
+            [
+                "netflix",
+                10
+            ],
+            [
+                "up",
+                9
+            ],
+            [
+                "more",
+                6
+            ],
+            [
+                "over",
+                5
+            ]
+        ]
+    },
+    {
+        "publisher": "Pantagraph",
+        "headline": "Europe Could Push EV and Renewable Energy Across the Finish Line",
+        "create_at": "2017-07-18T14:51:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=hG8c3044qqsQBxovWEnVhx3LPFzbdSCfhEtK7n7bCB4&v=1&r=http%3a%2f%2fwww.pantagraph.com%2fbusiness%2finvestment%2fmarkets-and-stocks%2feurope-could-push-ev-and-renewable-energy-across-the-finish%2farticle_f2485dcd-0833-5dd0-9f16-38bf606fbeda.html&p=DevEx,5101.1",
+        "score": 0.006,
+        "neg_words": [
+            [
+                "over",
+                -0.755
+            ],
+            [
+                "france",
+                -0.618
+            ],
+            [
+                "volvo",
+                -0.517
+            ],
+            [
+                "investors",
+                -0.28
+            ],
+            [
+                "fall",
+                -0.241
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                4.58
+            ],
+            [
+                "s",
+                1.017
+            ],
+            [
+                "vehicles",
+                1.008
+            ],
+            [
+                "evs",
+                0.963
+            ],
+            [
+                "now",
+                0.875
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                10
+            ],
+            [
+                "evs",
+                9
+            ],
+            [
+                "vehicles",
+                8
+            ],
+            [
+                "ban",
+                7
+            ],
+            [
+                "france",
+                6
+            ]
+        ]
+    },
+    {
+        "publisher": "benchmarkmonitor.com",
+        "headline": "Tesla Motors Inc (NASDAQ:TSLA) added two new independent directors to its board",
+        "create_at": "2017-07-18T14:44:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=PQ0eeBzCXzDKx0HS5wBnPvo7ZjayXfZlha8yvc_zG7Q&v=1&r=http%3a%2f%2fwww.benchmarkmonitor.com%2ftesla-motors-inc-nasdaqtsla-added-two-new-independent-directors-to-its-board%2f236186&p=DevEx,5103.1",
+        "score": 0.016,
+        "neg_words": [
+            [
+                "price",
+                -2.21
+            ],
+            [
+                "analyst",
+                -1.053
+            ],
+            [
+                "stock",
+                -0.644
+            ],
+            [
+                "away",
+                -0.62
+            ],
+            [
+                "ratio",
+                -0.414
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                17.288999999999998
+            ],
+            [
+                "tesla",
+                1.832
+            ],
+            [
+                "company",
+                1.422
+            ],
+            [
+                "board",
+                0.496
+            ],
+            [
+                "motors inc",
+                0.42899999999999994
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                17
+            ],
+            [
+                "stock",
+                14
+            ],
+            [
+                "analyst s",
+                13
+            ],
+            [
+                "analyst",
+                13
+            ],
+            [
+                "price",
+                10
+            ]
+        ]
+    },
+    {
+        "publisher": "mercurynews.com",
+        "headline": "Tesla shares retreat as CEO Musk says, ‘We’re not worthy!’",
+        "create_at": "2017-07-17T22:57:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=E-RDLRPAyHk9P7MuJSOIKFOvtOxOrCpoGIqX2Q0tv8Q&v=1&r=http%3a%2f%2fwww.mercurynews.com%2f2017%2f07%2f17%2ftesla-shares-retreat-as-ceo-musk-says-were-not-worthy%2f&p=DevEx,5117.1",
+        "score": -0.033,
+        "neg_words": [
+            [
+                "price",
+                -0.442
+            ],
+            [
+                "dow",
+                -0.414
+            ],
+            [
+                "right deserve",
+                -0.414
+            ],
+            [
+                "deserve",
+                -0.414
+            ],
+            [
+                "higher right",
+                -0.414
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                4.068
+            ],
+            [
+                "tesla",
+                1.832
+            ],
+            [
+                "musk",
+                0.596
+            ],
+            [
+                "company",
+                0.474
+            ],
+            [
+                "tesla s",
+                0.244
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                4
+            ],
+            [
+                "musk",
+                4
+            ],
+            [
+                "tesla",
+                4
+            ],
+            [
+                "day",
+                3
+            ],
+            [
+                "stocks",
+                3
+            ]
+        ]
+    },
+    {
+        "publisher": "marketsinsider.com",
+        "headline": "ELON MUSK: Tesla's stock price is 'low if you believe in Tesla's future' (TSLA)",
+        "create_at": "2017-07-17T21:04:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=KPntd1uyl1mEelQkg0UwzaWJ1PPS-rrbiY3aE1u4UaM&v=1&r=http%3a%2f%2fmarkets.businessinsider.com%2fnews%2fstocks%2ftesla-elon-musk-isnt-overvalued-if-you-believe-in-teslas-future-2017-7-1002180116&p=DevEx,5119.1",
+        "score": -0.062,
+        "neg_words": [
+            [
+                "present",
+                -0.8280000000000001
+            ],
+            [
+                "high based",
+                -0.723
+            ],
+            [
+                "high based past",
+                -0.723
+            ],
+            [
+                "clarify",
+                -0.723
+            ],
+            [
+                "based past",
+                -0.723
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                4.122
+            ],
+            [
+                "musk",
+                0.745
+            ],
+            [
+                "elon",
+                0.448
+            ],
+            [
+                "t",
+                0.298
+            ],
+            [
+                "model",
+                0.233
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                9
+            ],
+            [
+                "musk",
+                5
+            ],
+            [
+                "stock",
+                5
+            ],
+            [
+                "shares",
+                4
+            ],
+            [
+                "tesla's",
+                4
+            ]
+        ]
+    },
+    {
+        "publisher": "Wealth Daily",
+        "headline": "Why Tesla's (NASDAQ: TSLA) Stock is Going Down",
+        "create_at": "2017-07-08T18:04:25",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=AyRY094QCFBVL_uDMnFsQU9bnkcW1LO0bS2-h_TXbgw&v=1&r=http%3a%2f%2fwww.wealthdaily.com%2farticles%2fwhy-teslas-nasdaq-tsla-stock-is-going-down%2f8774&p=DevEx,5133.1",
+        "score": -0.035,
+        "neg_words": [
+            [
+                "wealth",
+                -3.1049999999999995
+            ],
+            [
+                "wealth daily",
+                -1.6869999999999998
+            ],
+            [
+                "crash",
+                -1.172
+            ],
+            [
+                "i've",
+                -1.035
+            ],
+            [
+                "down",
+                -1.012
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                8.702
+            ],
+            [
+                "company",
+                5.2139999999999995
+            ],
+            [
+                "s",
+                2.034
+            ],
+            [
+                "now",
+                0.875
+            ],
+            [
+                "billion",
+                0.738
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                19
+            ],
+            [
+                "company",
+                11
+            ],
+            [
+                "daily",
+                10
+            ],
+            [
+                "jason",
+                10
+            ],
+            [
+                "wealth",
+                9
+            ]
+        ]
+    },
+    {
+        "publisher": "Red Green Blue",
+        "headline": "What’s happening with Tesla’s stock price?",
+        "create_at": "2017-07-08T17:35:06",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=dR3DUH3uUOsF0t1qh9b27cNcKZ5qI3B7PtoVbZISSwg&v=1&r=http%3a%2f%2fredgreenandblue.org%2f2017%2f07%2f08%2fwhats-happening-teslas-stock-price%2f&p=DevEx,5135.1",
+        "score": 0.018,
+        "neg_words": [
+            [
+                "price",
+                -0.884
+            ],
+            [
+                "true",
+                -0.8
+            ],
+            [
+                "deserve",
+                -0.414
+            ],
+            [
+                "var",
+                -0.39
+            ],
+            [
+                "stock",
+                -0.368
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                9.152999999999999
+            ],
+            [
+                "tesla",
+                4.58
+            ],
+            [
+                "company",
+                1.896
+            ],
+            [
+                "market",
+                1.0
+            ],
+            [
+                "billion",
+                0.984
+            ]
+        ],
+        "key_words": [
+            [
+                "true",
+                20
+            ],
+            [
+                "false",
+                13
+            ],
+            [
+                "tesla",
+                10
+            ],
+            [
+                "var",
+                10
+            ],
+            [
+                "s",
+                9
+            ]
+        ]
+    },
+    {
+        "publisher": "FORTUNE",
+        "headline": "Tesla Stock Just Got a Boost After a Bad Week. Here’s Why.",
+        "create_at": "2017-07-08T17:02:04",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=K9Is1CIvMzTwVWGxv2CR_SSkxnzSp3K1gtz2YHG-q5k&v=1&r=http%3a%2f%2ffortune.com%2f2017%2f07%2f08%2ftesla-stock-delivery%2f&p=DevEx,5139.1",
+        "score": 0.052,
+        "neg_words": [
+            [
+                "tesla's",
+                -0.192
+            ],
+            [
+                "report",
+                -0.18
+            ],
+            [
+                "stock",
+                -0.138
+            ],
+            [
+                "company's",
+                -0.128
+            ],
+            [
+                "low",
+                -0.107
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                3.0509999999999997
+            ],
+            [
+                "tesla",
+                2.748
+            ],
+            [
+                "company",
+                0.948
+            ],
+            [
+                "tesla s",
+                0.488
+            ],
+            [
+                "model",
+                0.466
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                6
+            ],
+            [
+                "deliveries",
+                4
+            ],
+            [
+                "stock",
+                3
+            ],
+            [
+                "quarter",
+                3
+            ],
+            [
+                "year",
+                3
+            ]
+        ]
+    },
+    {
+        "publisher": "Buffalo News",
+        "headline": "David Robinson: The tide turns on Tesla's stock",
+        "create_at": "2017-07-07T21:17:07",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=ii6kq-Bcz6-QmWxWK6keOIQSTAaNWBIri1UciBINBuI&v=1&r=http%3a%2f%2fbuffalonews.com%2f2017%2f07%2f07%2ftide-turns-teslas-stock-2%2f&p=DevEx,5143.1",
+        "score": 0.024,
+        "neg_words": [
+            [
+                "investors",
+                -1.6800000000000002
+            ],
+            [
+                "crash",
+                -1.172
+            ],
+            [
+                "volvo",
+                -1.034
+            ],
+            [
+                "price",
+                -0.884
+            ],
+            [
+                "electric",
+                -0.506
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                28.476
+            ],
+            [
+                "tesla",
+                10.076
+            ],
+            [
+                "tesla s",
+                3.416
+            ],
+            [
+                "model",
+                3.262
+            ],
+            [
+                "company",
+                2.844
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                28
+            ],
+            [
+                "tesla",
+                22
+            ],
+            [
+                "tesla s",
+                14
+            ],
+            [
+                "model",
+                14
+            ],
+            [
+                "more",
+                12
+            ]
+        ]
+    },
+    {
+        "publisher": "Truth About Cars",
+        "headline": "Fall Guy: Tesla Stock Dives as Storm Clouds Rain on Musk’s Parade",
+        "create_at": "2017-07-07T16:03:23",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=4Rc1ZsNet0TivyZADdpFeE_WDbGBzrz3cB7uzPupNCs&v=1&r=http%3a%2f%2fwww.thetruthaboutcars.com%2f2017%2f07%2ffall-guy-tesla-stock-dives-weekend-news-dulls-musks-luster%2f&p=DevEx,5151.1",
+        "score": -0.013,
+        "neg_words": [
+            [
+                "audi",
+                -2.208
+            ],
+            [
+                "quality",
+                -2.17
+            ],
+            [
+                "iihs",
+                -1.344
+            ],
+            [
+                "price",
+                -1.326
+            ],
+            [
+                "electrification",
+                -1.242
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                48.815999999999995
+            ],
+            [
+                "tesla",
+                27.48
+            ],
+            [
+                "model",
+                6.291
+            ],
+            [
+                "company",
+                4.74
+            ],
+            [
+                "t",
+                4.47
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                60
+            ],
+            [
+                "s",
+                48
+            ],
+            [
+                "t",
+                30
+            ],
+            [
+                "model",
+                27
+            ],
+            [
+                "car",
+                17
+            ]
+        ]
+    },
+    {
+        "publisher": "CBS News",
+        "headline": "Tesla's power surge on Wall Street reverses",
+        "create_at": "2017-07-06T15:32:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=8YdYDt5O2Yeu0F53Ulkbc61UGJ6lmB7M322wBLIihL8&v=1&r=http%3a%2f%2fwww.cbsnews.com%2fnews%2ftesla-stock-tumbles-on-model-3-worries%2f&p=DevEx,5157.1",
+        "score": -0.032,
+        "neg_words": [
+            [
+                "goldman sachs",
+                -1.242
+            ],
+            [
+                "sachs",
+                -1.242
+            ],
+            [
+                "result",
+                -0.723
+            ],
+            [
+                "price",
+                -0.663
+            ],
+            [
+                "volvo",
+                -0.517
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                2.748
+            ],
+            [
+                "s",
+                1.017
+            ],
+            [
+                "model",
+                0.932
+            ],
+            [
+                "more",
+                0.488
+            ],
+            [
+                "company",
+                0.474
+            ]
+        ],
+        "key_words": [
+            [
+                "percent",
+                6
+            ],
+            [
+                "tesla",
+                6
+            ],
+            [
+                "more",
+                4
+            ],
+            [
+                "data",
+                4
+            ],
+            [
+                "model",
+                4
+            ]
+        ]
+    },
+    {
+        "publisher": "Gas2.0",
+        "headline": "Missed Production Goal, Crash Test Woes Weigh On Tesla Stock",
+        "create_at": "2017-07-06T22:39:10",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=ZcC67H_iG_eKhLDgPqb1-BKnpSVfDK4mNfInDwJrlhk&v=1&r=http%3a%2f%2fgas2.org%2f2017%2f07%2f06%2fmissed-production-goal-crash-test-woes-weigh-tesla-stock%2f&p=DevEx,5159.1",
+        "score": -0.011,
+        "neg_words": [
+            [
+                "iihs",
+                -4.032
+            ],
+            [
+                "volvo",
+                -3.1020000000000003
+            ],
+            [
+                "tamberrino",
+                -1.758
+            ],
+            [
+                "crash",
+                -1.758
+            ],
+            [
+                "collision",
+                -0.688
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                21.357
+            ],
+            [
+                "tesla",
+                10.992
+            ],
+            [
+                "company",
+                2.844
+            ],
+            [
+                "model",
+                2.7960000000000003
+            ],
+            [
+                "news",
+                1.107
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                24
+            ],
+            [
+                "s",
+                21
+            ],
+            [
+                "model",
+                12
+            ],
+            [
+                "stock",
+                10
+            ],
+            [
+                "cars",
+                10
+            ]
+        ]
+    },
+    {
+        "publisher": "CBS News",
+        "headline": "Tesla faces range of pressures as stock hits a pothole",
+        "create_at": "2017-07-06T11:01:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=t5SZ1raw8VsvqbGKhvr2bjOv6Az9lUUxRPiSQqhLwZI&v=1&r=http%3a%2f%2fwww.cbsnews.com%2fnews%2ftesla-stock-hits-a-pothole%2f&p=DevEx,5161.1",
+        "score": -0.0,
+        "neg_words": [
+            [
+                "volvo",
+                -2.585
+            ],
+            [
+                "crash",
+                -1.758
+            ],
+            [
+                "iihs",
+                -0.896
+            ],
+            [
+                "interactive",
+                -0.41400000000000003
+            ],
+            [
+                "tesla spokesperson",
+                -0.414
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                4.58
+            ],
+            [
+                "s",
+                4.068
+            ],
+            [
+                "model",
+                2.097
+            ],
+            [
+                "company",
+                1.896
+            ],
+            [
+                "suv",
+                1.142
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                10
+            ],
+            [
+                "model",
+                9
+            ],
+            [
+                "safety",
+                6
+            ],
+            [
+                "cars",
+                6
+            ],
+            [
+                "data",
+                5
+            ]
+        ]
+    },
+    {
+        "publisher": "New York Post",
+        "headline": "Tesla stock takes a dive — and it may keep plummeting",
+        "create_at": "2017-07-05T10:39:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=T88gPjMrQt0AmHpEUEsCM4MkwFPWbPryqE5zzxwx1LU&v=1&r=http%3a%2f%2fnypost.com%2f2017%2f07%2f05%2ftesla-stock-takes-a-dive-and-it-may-keep-plummeting%2f&p=DevEx,5167.1",
+        "score": 0.003,
+        "neg_words": [
+            [
+                "tamberrino",
+                -2.344
+            ],
+            [
+                "sachs",
+                -1.242
+            ],
+            [
+                "goldman sachs",
+                -1.242
+            ],
+            [
+                "price",
+                -0.663
+            ],
+            [
+                "down",
+                -0.506
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                8.136
+            ],
+            [
+                "tesla",
+                3.664
+            ],
+            [
+                "company",
+                1.422
+            ],
+            [
+                "model",
+                0.932
+            ],
+            [
+                "suv",
+                0.571
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                8
+            ],
+            [
+                "tesla",
+                8
+            ],
+            [
+                "percent",
+                5
+            ],
+            [
+                "tamberrino",
+                4
+            ],
+            [
+                "production",
+                4
+            ]
+        ]
+    },
+    {
+        "publisher": "Salt Lake Tribune",
+        "headline": "Tesla’s stock shaping up to possibly have worst week of year",
+        "create_at": "2017-07-06T08:45:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=725Y00ac_LiL53HhMtS_BSzpzBGcy4LweJFqyN8NnyI&v=1&r=http%3a%2f%2fwww.sltrib.com%2fhome%2f5479892-155%2fteslas-stock-shaping-up-to-possibly&p=DevEx,5169.1",
+        "score": 0.004,
+        "neg_words": [
+            [
+                "volvo",
+                -2.585
+            ],
+            [
+                "crash",
+                -1.758
+            ],
+            [
+                "iihs",
+                -0.896
+            ],
+            [
+                "tesla spokesperson",
+                -0.414
+            ],
+            [
+                "tesla's",
+                -0.384
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                4.122
+            ],
+            [
+                "s",
+                4.068
+            ],
+            [
+                "model",
+                2.097
+            ],
+            [
+                "company",
+                1.422
+            ],
+            [
+                "suv",
+                1.142
+            ]
+        ],
+        "key_words": [
+            [
+                "model",
+                9
+            ],
+            [
+                "tesla",
+                9
+            ],
+            [
+                "cars",
+                6
+            ],
+            [
+                "rating",
+                5
+            ],
+            [
+                "volvo",
+                5
+            ]
+        ]
+    },
+    {
+        "publisher": "NWI",
+        "headline": "Why Tesla, Inc. Stock Tumbled on Wednesday",
+        "create_at": "2017-07-05T23:41:30",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=p3Dwzxks6O3Q7k6psJLosKYgJ98Dx3pU55JkT7tzPIo&v=1&r=http%3a%2f%2fwww.nwitimes.com%2fbusiness%2finvestment%2fmarkets-and-stocks%2fwhy-tesla-inc-stock-tumbled-on-wednesday%2farticle_0be09cfb-04b0-50f1-bcc4-f28920f9e9db.html&p=DevEx,5177.1",
+        "score": -0.011,
+        "neg_words": [
+            [
+                "tamberrino",
+                -2.344
+            ],
+            [
+                "goldman sachs",
+                -0.621
+            ],
+            [
+                "sachs",
+                -0.621
+            ],
+            [
+                "tesla's",
+                -0.5760000000000001
+            ],
+            [
+                "down",
+                -0.506
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                4.58
+            ],
+            [
+                "s",
+                4.068
+            ],
+            [
+                "model",
+                2.7960000000000003
+            ],
+            [
+                "model 3",
+                0.501
+            ],
+            [
+                "now",
+                0.35
+            ]
+        ],
+        "key_words": [
+            [
+                "model",
+                12
+            ],
+            [
+                "tesla",
+                10
+            ],
+            [
+                "stock",
+                7
+            ],
+            [
+                "deliveries",
+                6
+            ],
+            [
+                "tesla's",
+                6
+            ]
+        ]
+    },
+    {
+        "publisher": "NASDAQ",
+        "headline": "Why Tesla, Inc. Stock Tumbled on Wednesday",
+        "create_at": "2017-07-05T03:03:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=Ut9fzSaYv6gLnJKxuV0e97NeQw8aPISI03BrUHqsrhU&v=1&r=http%3a%2f%2fwww.nasdaq.com%2farticle%2fwhy-tesla-inc-stock-tumbled-on-wednesday-cm812059&p=DevEx,5179.1",
+        "score": -0.0,
+        "neg_words": [
+            [
+                "tamberrino",
+                -4.688
+            ],
+            [
+                "goldman sachs",
+                -1.242
+            ],
+            [
+                "sachs",
+                -1.242
+            ],
+            [
+                "tesla's",
+                -1.1520000000000001
+            ],
+            [
+                "down",
+                -1.012
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                10.992
+            ],
+            [
+                "s",
+                8.136
+            ],
+            [
+                "model",
+                5.825
+            ],
+            [
+                "model 3",
+                1.002
+            ],
+            [
+                "now",
+                0.875
+            ]
+        ],
+        "key_words": [
+            [
+                "model",
+                25
+            ],
+            [
+                "tesla",
+                24
+            ],
+            [
+                "stock",
+                20
+            ],
+            [
+                "deliveries",
+                12
+            ],
+            [
+                "half",
+                12
+            ]
+        ]
+    },
+    {
+        "publisher": "Market Realist",
+        "headline": "Could Tesla Stock Continue to Outperform after Its Solid 2Q17?",
+        "create_at": "2017-06-26T04:25:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=3hVZ6x0Jsd-cc_9j3O7O8Iuaobc3l7wKDsN32mUbcoE&v=1&r=http%3a%2f%2fmarketrealist.com%2f2017%2f06%2fcould-tesla-stock-continue-to-outperform-after-its-solid-2q17%2f&p=DevEx,5181.1",
+        "score": 0.024,
+        "neg_words": [
+            [
+                "price",
+                -0.442
+            ],
+            [
+                "positive",
+                -0.344
+            ],
+            [
+                "tesla stock",
+                -0.34
+            ],
+            [
+                "stock",
+                -0.322
+            ],
+            [
+                "downside",
+                -0.31
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                7.119
+            ],
+            [
+                "tesla",
+                4.58
+            ],
+            [
+                "model",
+                1.3980000000000001
+            ],
+            [
+                "company",
+                0.948
+            ],
+            [
+                "tesla s",
+                0.732
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                10
+            ],
+            [
+                "stock",
+                7
+            ],
+            [
+                "s",
+                7
+            ],
+            [
+                "model",
+                6
+            ],
+            [
+                "tesla stock",
+                5
+            ]
+        ]
+    },
+    {
+        "publisher": "Inside EVs",
+        "headline": "Analyst Says Tesla Stock Price Could Soar To $464",
+        "create_at": "2017-06-23T15:11:47",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=VUpcOMVrlZRpc66ucU0v7Hwc0VcPrR7xNdJGcj9CpTY&v=1&r=http%3a%2f%2finsideevs.com%2fanalyst-tesla-stock-price-soar-464%2f&p=DevEx,5183.1",
+        "score": 0.024,
+        "neg_words": [
+            [
+                "price",
+                -0.884
+            ],
+            [
+                "down",
+                -0.506
+            ],
+            [
+                "stock",
+                -0.414
+            ],
+            [
+                "target",
+                -0.315
+            ],
+            [
+                "over",
+                -0.302
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                11.187
+            ],
+            [
+                "tesla",
+                8.244
+            ],
+            [
+                "company",
+                1.896
+            ],
+            [
+                "model",
+                1.165
+            ],
+            [
+                "tesla s",
+                0.976
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                18
+            ],
+            [
+                "s",
+                11
+            ],
+            [
+                "stock",
+                9
+            ],
+            [
+                "haissl",
+                9
+            ],
+            [
+                "years",
+                7
+            ]
+        ]
+    },
+    {
+        "publisher": "Wall Street Pit",
+        "headline": "‘Blue-Sky’ Valuation Suggests Tesla Stock Price Could Reach A Staggering $566 (TSLA)",
+        "create_at": "2017-05-30T10:12:40",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=zbam7fUcaunogFJQtt1MscuOGW1HO9uCHNlui6ZB2xs&v=1&r=http%3a%2f%2fwallstreetpit.com%2f113526-blue-sky-valuation-tesla-stock-price-566-tsla%2f&p=DevEx,5185.1",
+        "score": 0.028,
+        "neg_words": [
+            [
+                "price",
+                -1.326
+            ],
+            [
+                "target",
+                -0.42
+            ],
+            [
+                "kallo",
+                -0.41400000000000003
+            ],
+            [
+                "caused",
+                -0.379
+            ],
+            [
+                "average",
+                -0.28200000000000003
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                16.272
+            ],
+            [
+                "tesla",
+                6.87
+            ],
+            [
+                "company",
+                1.896
+            ],
+            [
+                "model",
+                1.3980000000000001
+            ],
+            [
+                "tesla s",
+                0.976
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                16
+            ],
+            [
+                "tesla",
+                15
+            ],
+            [
+                "price",
+                6
+            ],
+            [
+                "kallo",
+                6
+            ],
+            [
+                "model",
+                6
+            ]
+        ]
+    },
+    {
+        "publisher": "Inside EVs",
+        "headline": "Could Tesla Stock Hit $1,000 In 2020?",
+        "create_at": "2017-04-23T11:06:50",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=xd_z8-9nU49KLm7lUaZj4KTU9XlwyPbmokQLOkNWA8c&v=1&r=http%3a%2f%2finsideevs.com%2fcould-tesla-stock-hit-1000-2020%2f&p=DevEx,5187.1",
+        "score": 0.019,
+        "neg_words": [
+            [
+                "price",
+                -2.652
+            ],
+            [
+                "over",
+                -1.208
+            ],
+            [
+                "stock",
+                -0.966
+            ],
+            [
+                "bringing",
+                -0.723
+            ],
+            [
+                "investors",
+                -0.56
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                35.595
+            ],
+            [
+                "tesla",
+                28.854000000000003
+            ],
+            [
+                "model",
+                6.291
+            ],
+            [
+                "company",
+                5.2139999999999995
+            ],
+            [
+                "solar",
+                2.992
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                63
+            ],
+            [
+                "s",
+                35
+            ],
+            [
+                "model",
+                27
+            ],
+            [
+                "market",
+                23
+            ],
+            [
+                "stock",
+                21
+            ]
+        ]
+    },
+    {
+        "publisher": "Los Angeles Times",
+        "headline": "Tesla stock value overtakes Ford as Elon Musk disses short sellers",
+        "create_at": "2017-04-03T22:23:32",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=dS5txOD5iZgVnxsLfFw7SK4y4KJ_hPWF6zgJoA3oyTs&v=1&r=http%3a%2f%2fwww.latimes.com%2fbusiness%2fautos%2fla-fi-hy-tesla-1q-production-20170403-story.html&p=DevEx,5191.1",
+        "score": 0.085,
+        "neg_words": [
+            [
+                "price",
+                -0.663
+            ],
+            [
+                "stock",
+                -0.598
+            ],
+            [
+                "down",
+                -0.253
+            ],
+            [
+                "cars",
+                -0.21999999999999997
+            ],
+            [
+                "short",
+                -0.212
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                27.458999999999996
+            ],
+            [
+                "tesla",
+                10.076
+            ],
+            [
+                "company",
+                2.844
+            ],
+            [
+                "model",
+                2.097
+            ],
+            [
+                "act",
+                1.905
+            ]
+        ],
+        "key_words": [
+            [
+                "s",
+                27
+            ],
+            [
+                "tesla",
+                22
+            ],
+            [
+                "stock",
+                13
+            ],
+            [
+                "production",
+                9
+            ],
+            [
+                "model",
+                9
+            ]
+        ]
+    },
+    {
+        "publisher": "Investopedia",
+        "headline": "The Future Of Tesla",
+        "create_at": "2015-06-08T23:12:36",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=HYzxE6_BGVbE7EJxKY1tsQgb5kedAE4fBf9FaNCvwWI&v=1&r=http%3a%2f%2fwww.investopedia.com%2fstock-analysis%2f060815%2ffuture-tesla-tsla.aspx&p=DevEx,5195.1",
+        "score": 0.02,
+        "neg_words": [
+            [
+                "option",
+                -0.344
+            ],
+            [
+                "analyst",
+                -0.243
+            ],
+            [
+                "fall",
+                -0.241
+            ],
+            [
+                "price",
+                -0.221
+            ],
+            [
+                "demand",
+                -0.21299999999999997
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                8.702
+            ],
+            [
+                "company",
+                4.266
+            ],
+            [
+                "s",
+                4.068
+            ],
+            [
+                "car",
+                1.07
+            ],
+            [
+                "elon",
+                0.896
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                19
+            ],
+            [
+                "company",
+                9
+            ],
+            [
+                "car",
+                5
+            ],
+            [
+                "more",
+                5
+            ],
+            [
+                "musk",
+                4
+            ]
+        ]
+    },
+    {
+        "publisher": "Hybrid Cars",
+        "headline": "Why Has Tesla Stock Gone Up So Fast?",
+        "create_at": "2015-05-14T16:45:23",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=D6tpYa_fjC405YKmtRdAqiGCLOf6-9UQIaA9X_WphzA&v=1&r=http%3a%2f%2fwww.hybridcars.com%2fwhy-has-tesla-stock-gone-up-so-fast%2f&p=DevEx,5197.1",
+        "score": 0.018,
+        "neg_words": [
+            [
+                "ratio",
+                -0.828
+            ],
+            [
+                "federal",
+                -0.758
+            ],
+            [
+                "over",
+                -0.755
+            ],
+            [
+                "present",
+                -0.552
+            ],
+            [
+                "see",
+                -0.384
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                26.441999999999997
+            ],
+            [
+                "tesla",
+                20.152
+            ],
+            [
+                "company",
+                6.162
+            ],
+            [
+                "tesla s",
+                1.952
+            ],
+            [
+                "elon",
+                1.792
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                44
+            ],
+            [
+                "s",
+                26
+            ],
+            [
+                "company",
+                13
+            ],
+            [
+                "one",
+                11
+            ],
+            [
+                "elon",
+                8
+            ]
+        ]
+    },
+    {
+        "publisher": "CNN Money",
+        "headline": "Has Tesla finally bottomed? Maybe?",
+        "create_at": "2013-11-19",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=2STFuWgdMBtKPUy8Ez_GLhqfxy8p1I4s3Mxr0JX2Rlg&v=1&r=http%3a%2f%2fbuzz.money.cnn.com%2f2013%2f11%2f19%2ftesla-stock-bottom%2f&p=DevEx,5205.1",
+        "score": 0.011,
+        "neg_words": [
+            [
+                "price",
+                -1.105
+            ],
+            [
+                "stock",
+                -0.874
+            ],
+            [
+                "investors",
+                -0.8400000000000001
+            ],
+            [
+                "down",
+                -0.759
+            ],
+            [
+                "tesla's",
+                -0.5760000000000001
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                8.244
+            ],
+            [
+                "s",
+                4.068
+            ],
+            [
+                "more",
+                0.976
+            ],
+            [
+                "company",
+                0.948
+            ],
+            [
+                "model",
+                0.932
+            ]
+        ],
+        "key_words": [
+            [
+                "stock",
+                19
+            ],
+            [
+                "tesla",
+                18
+            ],
+            [
+                "more",
+                8
+            ],
+            [
+                "shares",
+                8
+            ],
+            [
+                "up",
+                6
+            ]
+        ]
+    },
+    {
+        "publisher": "CNN Money",
+        "headline": "Can anything stop Tesla?",
+        "create_at": "2013-04-24T11:58:10",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=BaJ7-wwqqgzXU9DgywFk3vMyicXjSLF-Qe3Vnj5qy6I&v=1&r=http%3a%2f%2fbuzz.money.cnn.com%2f2013%2f04%2f23%2ftesla-stock%2f&p=DevEx,5209.1",
+        "score": 0.052,
+        "neg_words": [
+            [
+                "investors",
+                -0.7000000000000001
+            ],
+            [
+                "price",
+                -0.663
+            ],
+            [
+                "stock",
+                -0.598
+            ],
+            [
+                "tesla's",
+                -0.5760000000000001
+            ],
+            [
+                "short",
+                -0.53
+            ]
+        ],
+        "pos_words": [
+            [
+                "tesla",
+                13.74
+            ],
+            [
+                "s",
+                6.101999999999999
+            ],
+            [
+                "company",
+                2.844
+            ],
+            [
+                "wilcox",
+                1.7159999999999997
+            ],
+            [
+                "model",
+                1.165
+            ]
+        ],
+        "key_words": [
+            [
+                "tesla",
+                30
+            ],
+            [
+                "stock",
+                13
+            ],
+            [
+                "it's",
+                10
+            ],
+            [
+                "company",
+                6
+            ],
+            [
+                "tesla's",
+                6
+            ]
+        ]
+    },
+    {
+        "publisher": "24/7 Wall ST",
+        "headline": "Are Tesla Stock Options Enough to Beat Back Union Organizers?",
+        "create_at": "2017-02-23T01:45:00",
+        "url": "http://www.bing.com/cr?IG=070F74E943734F2FB6A26E2E9F7C9506&CID=2898B86CB55E6A48216AB2A9B49E6B7D&rd=1&h=v47X3YCEj5VFFCPi68IIndej581aLA1OG2ECxCPolXU&v=1&r=http%3a%2f%2f247wallst.com%2fautos%2f2017%2f02%2f23%2fare-tesla-stock-options-enough-to-beat-back-union-organizers%2f&p=DevEx,5211.1",
+        "score": 0.02,
+        "neg_words": [
+            [
+                "stock",
+                -0.598
+            ],
+            [
+                "options",
+                -0.376
+            ],
+            [
+                "option",
+                -0.344
+            ],
+            [
+                "average",
+                -0.28200000000000003
+            ],
+            [
+                "happy",
+                -0.241
+            ]
+        ],
+        "pos_words": [
+            [
+                "s",
+                12.203999999999999
+            ],
+            [
+                "tesla",
+                5.496
+            ],
+            [
+                "company",
+                1.896
+            ],
+            [
+                "tesla s",
+                1.22
+            ],
+            [
+                "posted",
+                0.9990000000000001
+            ]
+        ],
+        "key_words": [
+            [
+                "stock",
+                13
+            ],
+            [
+                "s",
+                12
+            ],
+            [
+                "tesla",
+                12
+            ],
+            [
+                "options",
+                8
+            ],
+            [
+                "workers",
+                7
+            ]
+        ]
+    }
+]
