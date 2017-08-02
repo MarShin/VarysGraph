@@ -3,8 +3,8 @@ read news txt -> News Node [OK]
 associate news node to company Node [OK]
 
 Neomodel hook method Comapny:score change ->
-DEMO: onKeyPress -> change company node score
-DEMO: onKeyPress -> alert.send_sms() & alert.send_email()
+DEMO: onKeyPress -> change company node score [OK]
+DEMO: onKeyPress -> alert.send_sms() & alert.send_email() [OK]
 
 //if have time
 compute batch tweet score for every batch of tweet

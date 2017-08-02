@@ -32,6 +32,7 @@ class Company(neomodel.StructuredNode):
     def save(self):
         self.modified = datetime.datetime.now()
         super(Company, self).save()
+        return self
 
 class News(neomodel.StructuredNode):
     headline = neomodel.StringProperty(unique_index=True, required=True)
@@ -70,6 +71,7 @@ class Tweet(neomodel.StructuredNode):
     def save(self):
         self.modified = datetime.datetime.now()
         super(Tweet, self).save()
+        return self
 
 
 class User(neomodel.StructuredNode):
@@ -93,6 +95,7 @@ class User(neomodel.StructuredNode):
     def save(self):
         self.modified = datetime.datetime.now()
         super(User, self).save()
+        return self
 
 
 class Hashtag(neomodel.StructuredNode):

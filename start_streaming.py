@@ -13,7 +13,7 @@ first_time = False
 # first_time = True
 
 if first_time:
-    # clear_neo4j_database(db)
+    clear_neo4j_database(db)
     graph = Graph()
     news_attributes = graph.prepare_news_attributes()
     print 'news'
@@ -25,8 +25,8 @@ if first_time:
     graph.init_db(companies_attributes)
     print 'DB initiated!!!'
 
-    # Alert.send_sms('+85262308397', 'Tesla score increased! check our graph')
-    # Alert.send_email('martinshin95@gmail.com', 'Welcome to Varys')
+    Alert.send_sms('+85262308397', 'Tesla score increased! check our graph')
+    Alert.send_email('martinshin95@gmail.com', 'Welcome to Varys')
 else:
     streamer = Streaming(pipeline=stream_pipeline, batch_size=10)
     print 'start streaming... '
