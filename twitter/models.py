@@ -14,6 +14,7 @@ class Event(neomodel.StructuredNode):
     def save(self):
         self.modified = datetime.datetime.now()
         super(Event, self).save()
+        return self
 
 class Company(neomodel.StructuredNode):
     id_str = neomodel.StringProperty(unique_index=True, required=True)
@@ -33,7 +34,14 @@ class Company(neomodel.StructuredNode):
         super(Company, self).save()
 
 class News(neomodel.StructuredNode):
-    pass
+    headline = neomodel.StringProperty(unique_index=True, required=True)
+    url = neomodel.StringProperty(required=False)
+    publisher = neomodel.StringProperty(required=False)
+    created_at = neomodel.DateTimeProperty(required=False)
+    keywords = neomodel.ArrayProperty(neomodel.StringProperty(), required=False)
+    score = neomodel.FloatProperty(required=False)
+
+    cites = neomodel.RelationshipTo('Company', 'CITES')
 
 class Tweet(neomodel.StructuredNode):
     id_str = neomodel.StringProperty(unique_index=True, required=True)

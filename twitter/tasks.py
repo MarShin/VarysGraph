@@ -10,3 +10,8 @@ def bulk_parsing(users_attributes, tweets_attributes):
 # @app.task
 # def first_time_setup(graph_attributes):
 #     Graph.init_db(graph_attributes)
+
+@app.task
+def news_bulk_parsing(news_attributes):
+    print 'celery parsing news'
+    Graph.batch_news_processing(news_attributes)

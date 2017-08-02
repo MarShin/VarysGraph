@@ -1,6 +1,7 @@
 import datetime
+import json
 
-from twitter.models import Company
+from twitter.models import Company, News
 from twitter import settings
 
 # for one company
@@ -37,5 +38,19 @@ class Graph:
     def compute_score():
         pass
 
-    def read_news(self):
-        pass
+    def prepare_news_attributes(self):
+        with open('news.json') as json_data:
+            news = json.load(json_data)
+            return news
+
+    @classmethod
+    def batch_news_processing(cls, news_attributes):
+        print 'graph processing each article to db'
+        news = News.create_or_update(*news_attributes)
+        tesla = Company.nodes.get(name='Tesla')
+
+        if tesla is not None:
+            for k, article in enumerate(news):
+                article.cites.connect(tesla)
+        else:
+            print 'cannot find Tesla node'
