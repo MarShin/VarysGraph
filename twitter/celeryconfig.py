@@ -9,4 +9,5 @@ CELERY_QUEUES = (
 
 CELERY_ROUTES = {
     'twitter.tasks.bulk_parsing': {'queue': 'streaming', 'routing_key': 'streaming'},
+    'twitter.tasks.news_bulk_parsing': {'queue': 'streaming', 'routing_key': 'streaming'},
 }

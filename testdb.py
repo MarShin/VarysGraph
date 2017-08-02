@@ -18,13 +18,14 @@ class Person(StructuredNode):
     # traverse outgoing IS_FROM relations, inflate to Country objects
     country = RelationshipTo(Country, 'IS_FROM')
 
-jim = Person(name='Jim', age=3).save()
+# jim = Person(name='Jim', age=3).save()
 # jim.age = 4
 # jim.save() # validation happens here
-# jim.delete()
+jim = Person.nodes.get(name='Jim')
+jim.delete()
 # jim.refresh() # reload properties from neo
-# jim.id # neo4j internal id
+# print jim.id # neo4j internal id
 
 # jim = Person.nodes.get(name='Jim')
-germany = Country(code='DE').save()
-jim.country.connect(germany)
+# germany = Country(code='DE').save()
+# jim.country.connect(germany)
