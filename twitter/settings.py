@@ -18,12 +18,14 @@ SENDGRID_API_KEY = ''
 NEO4J_URL = ''
 
 # Things to track: Company name
-TO_TRACK = [
-    'Tesla',
-    'Samsung',
-    'Snapchat',
-    'Google',
-    ]
+# TO_TRACK = [
+#     'Tesla',
+#     'Samsung',
+#     'Snapchat',
+#     'Google',
+#     ]
+
+TO_TRACK = ['model 3']
 
 # DateTime format
 DATETIME_FORMAT = '%Y-%m-%d_%H:%M'

@@ -8,8 +8,8 @@ class Event(neomodel.StructuredNode):
     modified = neomodel.DateTimeProperty(required=False)
 
     related_to = neomodel.RelationshipTo('Company', 'ABOUT')
-    tweet_from = neomodel.RelationshipTo('Tweet', 'TWEET_FROM')
-    cited_from = neomodel.RelationshipTo('News', 'CITE_FROM')
+    tweet_from = neomodel.RelationshipFrom('Tweet', 'TWEET_FROM')
+    cited_from = neomodel.RelationshipFrom('News', 'CITE_FROM')
 
     def save(self):
         self.modified = datetime.datetime.now()

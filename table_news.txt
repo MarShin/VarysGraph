@@ -1,0 +1,63 @@
+MOST NEGATIVE
+{
+  "score": -1.559,
+  "publisher": "CNN Money",
+  "headline": "Tesla now averaging more than 1,800 Model 3 reservations a day",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=rHXomVNlzULnANikzgiJSnHWodMULoM_ItzaQ1k2mf8&v=1&r=http%3a%2f%2fmoney.cnn.com%2f2017%2f08%2f02%2ftechnology%2fbusiness%2ftesla-earnings%2findex.html&p=DevEx,5182.1"
+}
+{
+  "score": -0.61,
+  "publisher": "techkenyot.com",
+  "headline": "Louis Tomlinson Confirms That He & Zayn Malik Are 'Mates Again' - Awwwww!",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=T275ruaUIUyoWTga5rhvh7acrjoMrV1lLkVHf-hiI0Q&v=1&r=http%3a%2f%2ftechkenyot.com%2f2017%2f08%2f03%2flouis-tomlinson-confirms-that-he-zayn-malik-are-mates-again%2f&p=DevEx,5038.1"
+}
+{
+  "score": -0.447,
+  "publisher": "zmescience.com",
+  "headline": "Tesla Model 3: All About The Most Anticipated Car Ever",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=M8cXw-U7SDpErqqoOQRa3UJ--nEJY6aC7DQOtf1bIhQ&v=1&r=http%3a%2f%2fwww.zmescience.com%2fscience%2ftesla-model-3%2f&p=DevEx,5210.1"
+}
+{
+  "score": -0.268,
+  "publisher": "NWI",
+  "headline": "Tesla, Inc. Prepares for Massive Growth",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=WbXia6G0rBq5Wrw0PXtNocbxsJ4PfsMfSTmErxlUFys&v=1&r=http%3a%2f%2fwww.nwitimes.com%2fbusiness%2finvestment%2fmarkets-and-stocks%2ftesla-inc-prepares-for-massive-growth%2farticle_2cdf7929-84a2-5c60-8907-96317aa8726e.html&p=DevEx,5148.1"
+}
+{
+  "score": -0.091,
+  "publisher": "BMW BLOG",
+  "headline": "Tesla Model 3 vs BMW 3 Series vs Mercedes-Benz C-Class, per Bloomberg",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=UbkjuP2XybX7Oycs_JGE-J8R9zacwjcGnuEOXJorMis&v=1&r=http%3a%2f%2fwww.bmwblog.com%2f2017%2f08%2f02%2ftesla-model-3-vs-bmw-3-series-vs-mercedes-benz-c-class-per-bloomberg%2f&p=DevEx,5136.1"
+}
+
+MOST POSITIVE
+{
+  "score": 4.777,
+  "publisher": "Los Angeles Times",
+  "headline": "As Tesla ramps up to produce its Model 3, losses mount",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=lqXb-VyFt688NIYbo6VYTdyi7JOUGNBilkRKcqGnnDQ&v=1&r=http%3a%2f%2fwww.latimes.com%2fbusiness%2fautos%2fla-fi-hy-tesla-2q-earnings-20170802-story.html&p=DevEx,5082.1"
+}
+{
+  "score": 0.363,
+  "publisher": "Buffalo News",
+  "headline": "Tesla says it will start making solar roofs in Buffalo by end of year",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=QVHLwcZZiQEDph2M3CzP-9RWGTYYyatPbDLZbNpOQ_s&v=1&r=http%3a%2f%2fbuffalonews.com%2f2017%2f08%2f02%2ftesla-says-will-start-making-solar-roofs-buffalo-end-year%2f&p=DevEx,5138.1"
+}
+{
+  "score": 0.347,
+  "publisher": "Market Watch",
+  "headline": "Tesla is a large public company, and Elon Musk must start acting like it",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=OWIl1XvnSI3D92kvFxgSdZXyQsI6rncJZElx0gxAhyA&v=1&r=http%3a%2f%2fwww.marketwatch.com%2fstory%2ftesla-is-a-large-public-company-and-elon-musk-must-start-acting-like-it-2017-08-02&p=DevEx,5172.1"
+}
+{
+  "score": 0.347,
+  "publisher": "New York Daily News",
+  "headline": "Model 3 demand, higher revenue propel Tesla shares higher",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=Io2HDzhfmYYR_R6yXchfDwgI-AHtddkgX-EWx7t1kBc&v=1&r=http%3a%2f%2fwww.nydailynews.com%2fnewswires%2fnews%2fbusiness%2fmodel-3-demand-higher-revenue-propel-tesla-shares-higher-article-1.3379546&p=DevEx,5134.1"
+}
+{
+  "score": 0.324,
+  "publisher": "trueviralnews.com",
+  "headline": "Tesla Q2 losses rise to $336 million; revenue surges",
+  "url": "http://www.bing.com/cr?IG=04E0D6B3A99940EAA384115477CDEB2F&CID=0B197448E38C606102B97E9BE24C6139&rd=1&h=X0qzYWbuBWDRamDUO31vNE9RfjXGGNfplfWhnDYHjxM&v=1&r=http%3a%2f%2ftrueviralnews.com%2ftesla-q2-losses-rise-to-336-million-revenue-surges%2f&p=DevEx,5158.1"
+}

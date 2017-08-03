@@ -54,11 +54,6 @@ if (getch.__call__() == 'k'):
     # Alert.send_sms('+85262308397', 'Varys Alert: There is a score change in the Tesla')
     clean_event()
 
-    event = Event.nodes.get_or_none(name='Model 3 Delivered')
-    if event is None: #no Event node found
-        new_event = Event(name='Model 3 Delivered').save()
-        tesla = Company.nodes.get(name='Tesla')
-        new_event.related_to.connect(tesla)
-    else:
-        tesla = Company.nodes.get(name='Tesla')
-        event.related_to.connect(tesla)
+    new_event = Event(name='Model 3 Delivered').save()
+    tesla = Company.nodes.get(name='Tesla')
+    new_event.related_to.connect(tesla)

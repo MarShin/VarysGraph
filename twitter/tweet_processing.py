@@ -3,7 +3,7 @@ import logging
 from tweepy import Status
 from textblob import TextBlob
 import re
-from twitter.models import Tweet, User, Company
+from twitter.models import Tweet, User, Company, Event
 from twitter import settings
 
 logger = logging.getLogger(__name__)
@@ -106,6 +106,10 @@ class TweetProcessing:
         for k, tweet in enumerate(tweets):
             users[k].posts.connect(tweet)
             # Connect tweet with the company it mentions
-            company_name = cls.find_company(tweet.text)
-            company_node = Company.nodes.get(name=company_name)
-            tweet.tweet_about.connect(company_node)
+            # company_name = cls.find_company(tweet.text)
+            # company_node = Company.nodes.get(name=company_name)
+            # tweet.tweet_about.connect(company_node)
+
+            # for demo
+            company_event = Event.nodes.get(name='Model 3 Delivered')
+            company_event.tweet_from.connect(tweet)

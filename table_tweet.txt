@@ -1,0 +1,153 @@
+MOST NEGATIVE
+{
+  "coordinates": [],
+  "created_at": 1501742640,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892999532514091008",
+  "sentiment_subjectivity": 0.39999999999999997,
+  "text": "\"tesla is receiving an average of 1,800 model 3 reservations a day but is still losing money\" https://t.co/5buk0ukvki",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": -0.15,
+  "retweet_id_str": ""
+}
+{
+  "coordinates": [],
+  "created_at": 1501742460,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892998724548534272",
+  "sentiment_subjectivity": 0.3666666666666667,
+  "text": "tesla  delivers its first model 3 -- a game-changing  electric car #tesla #news https://t.co/os9ddzrmtp via @wonderoftech",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": -0.07500000000000001,
+  "retweet_id_str": ""
+}
+{
+  "coordinates": [],
+  "created_at": 1501742460,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892998749546532867",
+  "sentiment_subjectivity": 0,
+  "text": "rt @recode: tesla lost $336 million in the three months ending in june, a record quarterly loss. https://t.co/4oz2omefob https://t.co/g3oxt…",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": 0,
+  "retweet_id_str": ""
+}
+{
+  "coordinates": [],
+  "created_at": 1501742460,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892998940064268288",
+  "sentiment_subjectivity": 0,
+  "text": "@ricster3 @holy_helicity after price destruction, tuesday model lowered to 3.705, back below friday  this means to… https://t.co/0ulzjgueoj",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": 0,
+  "retweet_id_str": ""
+}
+{
+  "coordinates": [],
+  "created_at": 1501742520,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892999064941408256",
+  "sentiment_subjectivity": 0,
+  "text": "tens of thousands of people have canceled their tesla model 3 orders https://t.co/gedpukyynf #bi #sai",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": 0,
+  "retweet_id_str": ""
+}
+
+MOST POSITIVE
+{
+  "coordinates": [],
+  "created_at": 1501742520,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892999158809997312",
+  "sentiment_subjectivity": 0.5,
+  "text": "rt @time: \"why most people probably won't buy tesla's model 3\" https://t.co/b0tkmennjg",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": 0.5,
+  "retweet_id_str": ""
+}
+{
+  "coordinates": [],
+  "created_at": 1501742580,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892999243509760000",
+  "sentiment_subjectivity": 0.5,
+  "text": "tesla averages more than 1800 model 3 reservations a day https://t.co/xv1t5fhr1o",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": 0.5,
+  "retweet_id_str": ""
+}
+{
+  "coordinates": [],
+  "created_at": 1501742580,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892999350829420544",
+  "sentiment_subjectivity": 0.6,
+  "text": "rt @elonmusk: we poured our heart into the car. hope you love it. https://t.co/dzogqufeno",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": 0.5,
+  "retweet_id_str": ""
+}
+{
+  "coordinates": [],
+  "created_at": 1501742580,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892999445259972608",
+  "sentiment_subjectivity": 1,
+  "text": "rt @futurism: \"magic, i’m telling you. magic.\"\n\nhttps://t.co/hzcoeblxxz",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": 0.5,
+  "retweet_id_str": ""
+}
+{
+  "coordinates": [],
+  "created_at": 1501742580,
+  "reply_id_str": "",
+  "retweeted": false,
+  "features": "{}",
+  "id_str": "892999276330143744",
+  "sentiment_subjectivity": 0.75,
+  "text": "tesla model 3 features detailed at us launch #cars https://t.co/9wuhzhtp7r",
+  "quote_id_str": "",
+  "lang": "en",
+  "mention_ids_str": [],
+  "sentiment_polarity": 0.4,
+  "retweet_id_str": ""
+}

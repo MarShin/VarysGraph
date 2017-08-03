@@ -1,14 +1,12 @@
 import datetime
 import json
 
-from twitter.models import Company, News
+from twitter.models import Company, News, Event
 from twitter import settings
 
 # for one company
 class Graph:
     DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
-    # def __init(self):
-        # self.scores = {}
 
     def prepare_attributes(self):
         companies_attributes = []
@@ -23,11 +21,7 @@ class Graph:
                 'news_score': 0.0
             }
             companies_attributes.append(company)
-            # self.scores[company_name] = {
-            #     'current_tweet_score': 0.0,
-            #     'current_news_score': 0.0,
-            #     'brand_score': 0.0
-            # }
+
         return companies_attributes
 
     # To init Company
@@ -39,7 +33,7 @@ class Graph:
         pass
 
     def prepare_news_attributes(self):
-        with open('news.json') as json_data:
+        with open('model3.json') as json_data:
             news = json.load(json_data)
             return news
 
@@ -47,10 +41,15 @@ class Graph:
     def batch_news_processing(cls, news_attributes):
         print 'graph processing each article to db'
         news = News.create_or_update(*news_attributes)
-        tesla = Company.nodes.get(name='Tesla')
+        # tesla = Company.nodes.get(name='Tesla')
+        #
+        # if tesla is not None:
+        #     for k, article in enumerate(news):
+        #         article.cites.connect(tesla)
+        # else:
+        #     print 'cannot find Tesla node'
 
-        if tesla is not None:
-            for k, article in enumerate(news):
-                article.cites.connect(tesla)
-        else:
-            print 'cannot find Tesla node'
+        # for demo
+        company_event = Event.nodes.get(name='Model 3 Delivered')
+        for k, article in enumerate(news):
+            company_event.cited_from.connect(article)

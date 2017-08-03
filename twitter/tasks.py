@@ -6,10 +6,6 @@ from graph.graph_processing import Graph
 def bulk_parsing(users_attributes, tweets_attributes):
     # writing to DB
     TweetProcessing.batch_processing(users_attributes, tweets_attributes)
-#
-# @app.task
-# def first_time_setup(graph_attributes):
-#     Graph.init_db(graph_attributes)
 
 @app.task
 def news_bulk_parsing(news_attributes):

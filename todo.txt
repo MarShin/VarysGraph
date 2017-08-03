@@ -11,3 +11,6 @@ compute batch tweet score for every batch of tweet
 compute batch news score for every batch of news
 compute company scores base on tweet + news every batch
 watch company score > threshold -> trigger send_sms() & send_email()
+
+Neo4J query for front end display:
+MATCH (n:News)-[:CITE_FROM]-(:Event) RETURN (n) ORDER BY n.score DESC
