@@ -1,13 +1,13 @@
 var _ = require('lodash');
 
-function Tweet(title, cast) {
+function Tweet(name, tweet) {
   _.extend(this, {
-    title: title,
-    cast: cast.map(function (c) {
+    name: name,
+    tweets: tweet.map(function (t) {
       return {
-        name: c[0],
-        job: c[1],
-        role: c[2]
+        text: t[0],
+        polarity: t[1],
+        created_at: t[2]
       }
     })
   });
