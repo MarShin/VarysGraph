@@ -1,6 +1,6 @@
 var _ = require('lodash');
 
-function Movie(_node) {
+function Event(_node) {
   _.extend(this, _node.properties);
 
   if (this.id) {
@@ -11,4 +11,4 @@ function Movie(_node) {
   }
 }
 
-module.exports = Movie;
+module.exports = Event;
