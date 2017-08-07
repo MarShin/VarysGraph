@@ -17,8 +17,8 @@ function showEvent(title) {
       if (!event) return;
 
       var tweets = event.tweets.slice(0,5)
-      console.log('get event: ')
-      console.log(event)
+    //   console.log('get event: ')
+    //   console.log(event)
 
       $("#title").text(event.name);
       var $list = $("#tweets").empty();
@@ -63,6 +63,9 @@ function renderGraph() {
   api
     .getGraph()
     .then(graph => {
+        console.log('get graph: ')
+        console.log(graph)
+
       force.nodes(graph.nodes).links(graph.links).start();
 
       var link = svg.selectAll(".link")
