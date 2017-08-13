@@ -16,11 +16,14 @@ function showEvent(title) {
     .then(event => {
       if (!event) return;
 
-      $("#title").text(event.title);
-      $("#poster").attr("src", "http://neo4j-contrib.github.io/developer-resources/language-guides/assets/posters/" + event.title + ".jpg");
-      var $list = $("#crew").empty();
-      event.cast.forEach(cast => {
-        $list.append($("<li>" + cast.name + " " + cast.job + (cast.job == "acted" ? " as " + cast.role : "") + "</li>"));
+      var tweets = event.tweets.slice(0,5)
+    //   console.log('get event: ')
+    //   console.log(event)
+
+      $("#title").text(event.name);
+      var $list = $("#tweets").empty();
+      tweets.forEach(tweet => {
+        $list.append($("<tr>" + "<th>" + tweet.text + "</th>" +  "<th>" + tweet.polarity + "</th>" +  "<th>" +  tweet.created_at + "</th>" + "</tr>"));
       });
     }, "json");
 }
@@ -34,7 +37,7 @@ function search() {
 
       if (events) {
         events.forEach(event => {
-          $("<tr><td class='event'>" + event.title + "</td><td>" + event.released + "</td><td>" + event.tagline + "</td></tr>").appendTo(t)
+          $("<tr><td class='event'>" + event.name + "</td><td>" + event.modified + "</td><td>" + event.weighting + "</td></tr>").appendTo(t)
             .click(function() {
               showEvent($(this).find("td.event").text());
             })
@@ -42,7 +45,7 @@ function search() {
 
         var first = events[0];
         if (first) {
-          showEvent(first.title);
+          showEvent(first.name);
         }
       }
     });
@@ -60,6 +63,9 @@ function renderGraph() {
   api
     .getGraph()
     .then(graph => {
+        console.log('get graph: ')
+        console.log(graph)
+
       force.nodes(graph.nodes).links(graph.links).start();
 
       var link = svg.selectAll(".link")

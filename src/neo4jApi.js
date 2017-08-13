@@ -1,6 +1,7 @@
 require('file?name=[name].[ext]!../node_modules/neo4j-driver/lib/browser/neo4j-web.min.js');
-var Movie = require('./models/Movie');
-var MovieCast = require('./models/MovieCast');
+var Event = require('./models/Event');
+var Tweet = require('./models/Tweet');
+// var MovieCast = require('./models/MovieCast');
 var _ = require('lodash');
 
 var neo4j = window.neo4j.v1;
@@ -10,15 +11,17 @@ function searchEvents(queryString) {
   var session = driver.session();
   return session
     .run(
-      'MATCH (movie:Movie) \
-      WHERE movie.title =~ {title} \
-      RETURN movie',
-      {title: '(?i).*' + queryString + '.*'}
+      'MATCH (event:Event) \
+      WHERE event.name =~ {name} \
+      RETURN event',
+      {name: '(?i).*' + queryString + '.*'}
     )
     .then(result => {
       session.close();
+    //   console.log('Event result: ')
+    //   console.log(result.records)
       return result.records.map(record => {
-        return new Movie(record.get('movie'));
+        return new Event(record.get('event'));
       });
     })
     .catch(error => {
@@ -27,24 +30,30 @@ function searchEvents(queryString) {
     });
 }
 
-function getEvent(title) {
+function getEvent(name) {
   var session = driver.session();
   return session
     .run(
-      "MATCH (movie:Movie {title:{title}}) \
-      OPTIONAL MATCH (movie)<-[r]-(person:Person) \
-      RETURN movie.title AS title, \
-      collect([person.name, \
-           head(split(lower(type(r)), '_')), r.roles]) AS cast \
-      LIMIT 1", {title})
+      "MATCH (event:Event {name:{name}}) \
+      OPTIONAL MATCH (event)<-[:TWEET_FROM]-(tweet:Tweet) \
+      RETURN event.name AS name, \
+      collect([tweet.text, \
+           tweet.sentiment_polarity, tweet.created_at]) AS tweet_detail \
+      LIMIT 1", {name})
     .then(result => {
+        //   ORDER BY tweet.sentiment_polarity DESC
+
       session.close();
 
       if (_.isEmpty(result.records))
         return null;
 
+        // console.log('get event: ')
+        // console.log(result.records)
+
       var record = result.records[0];
-      return new MovieCast(record.get('title'), record.get('cast'));
+      return new Tweet(record.get('name'), record.get('tweet_detail'))
+    //   return new MovieCast(record.get('name'), record.get('tweet'));
     })
     .catch(error => {
       session.close();
@@ -55,22 +64,22 @@ function getEvent(title) {
 function getGraph() {
   var session = driver.session();
   return session.run(
-    'MATCH (m:Movie)<-[:ACTED_IN]-(a:Person) \
-    RETURN m.title AS movie, collect(a.name) AS cast \
+    'MATCH (e:Event)<-[:TWEET_FROM]-(t:Tweet) \
+    RETURN e.title AS event, collect(t.text) AS tweet \
     LIMIT {limit}', {limit: 100})
     .then(results => {
       session.close();
       var nodes = [], rels = [], i = 0;
       results.records.forEach(res => {
-        nodes.push({title: res.get('movie'), label: 'movie'});
+        nodes.push({title: res.get('event'), label: 'event'});
         var target = i;
         i++;
 
-        res.get('cast').forEach(name => {
-          var actor = {title: name, label: 'actor'};
-          var source = _.findIndex(nodes, actor);
+        res.get('tweet').forEach(text => {
+          var tweet = {text: text, label: 'tweet'};
+          var source = _.findIndex(nodes, tweet);
           if (source == -1) {
-            nodes.push(actor);
+            nodes.push(tweet);
             source = i;
             i++;
           }
