@@ -2,6 +2,19 @@ import datetime
 
 import neomodel
 
+class Event(neomodel.StructuredNode):
+    name = neomodel.StringProperty(unique_index=True, required=True)
+    weighting = neomodel.FloatProperty(required=False)
+    modified = neomodel.DateTimeProperty(required=False)
+
+    related_to = neomodel.RelationshipTo('Company', 'ABOUT')
+    tweet_from = neomodel.RelationshipFrom('Tweet', 'TWEET_FROM')
+    cited_from = neomodel.RelationshipFrom('News', 'CITE_FROM')
+
+    def save(self):
+        self.modified = datetime.datetime.now()
+        super(Event, self).save()
+        return self
 
 class Company(neomodel.StructuredNode):
     id_str = neomodel.StringProperty(unique_index=True, required=True)
@@ -16,16 +29,20 @@ class Company(neomodel.StructuredNode):
     stock_change = neomodel.FloatProperty(required=False)
     mkt_cap = neomodel.FloatProperty(required=False)
 
-    tweets = neomodel.RelationshipTo('Tweet', 'TWEETS')
-    cites = neomodel.RelationshipTo('News', 'CITES')
-    contains = neomodel.RelationshipTo('Link', 'CONTAINS')
-
     def save(self):
         self.modified = datetime.datetime.now()
         super(Company, self).save()
+        return self
 
 class News(neomodel.StructuredNode):
-    pass
+    headline = neomodel.StringProperty(unique_index=True, required=True)
+    url = neomodel.StringProperty(required=False)
+    publisher = neomodel.StringProperty(required=False)
+    created_at = neomodel.DateTimeProperty(required=False)
+    keywords = neomodel.ArrayProperty(neomodel.StringProperty(), required=False)
+    score = neomodel.FloatProperty(required=False)
+
+    cites = neomodel.RelationshipTo('Company', 'CITES')
 
 class Tweet(neomodel.StructuredNode):
     id_str = neomodel.StringProperty(unique_index=True, required=True)
@@ -49,10 +66,12 @@ class Tweet(neomodel.StructuredNode):
     tags = neomodel.RelationshipTo('Hashtag', 'TAGS')
     contains = neomodel.RelationshipTo('Link', 'CONTAINS')
     quotes = neomodel.Relationship('Tweet', 'QUOTES')
+    tweet_about = neomodel.RelationshipTo('Company', 'TWEETS')
 
     def save(self):
         self.modified = datetime.datetime.now()
         super(Tweet, self).save()
+        return self
 
 
 class User(neomodel.StructuredNode):
@@ -76,6 +95,7 @@ class User(neomodel.StructuredNode):
     def save(self):
         self.modified = datetime.datetime.now()
         super(User, self).save()
+        return self
 
 
 class Hashtag(neomodel.StructuredNode):

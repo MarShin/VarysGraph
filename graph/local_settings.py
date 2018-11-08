@@ -21,3 +21,6 @@ TWILIO_AUTH_TOKEN  = "b1fbdc32de31521d7132f84893e5ace3"
 # Twilio testing ac
 # ACa5466a67cec062d381ed666904c6c5da
 # 7c40960d8d9643d435981cedb09dc9c3
+
+# SendGrid credential
+SENDGRID_API_KEY = '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'

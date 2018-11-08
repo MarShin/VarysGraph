@@ -12,20 +12,23 @@ TWITTER_ACCESS_SECRET = ''
 TWILIO_ACCOUNT_SID = ''
 TWILIO_AUTH_TOKEN = ''
 
+# SendGrid credentials
+SENDGRID_API_KEY = ''
+
 NEO4J_URL = ''
 
 # Things to track: Company name
-# STAGE ONE ONLY 1 COMPANY
-TO_TRACK = [
-    'Tesla',
-    # 'Samsung',
-    # 'Snapchat',
-    # 'Google',
-    ]
+# TO_TRACK = [
+#     'Tesla',
+#     'Samsung',
+#     'Snapchat',
+#     'Google',
+#     ]
+
+TO_TRACK = ['autopilot']
 
 # DateTime format
 DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
 
-
 # Used to get twitter API credential
-from local_settings import *
+from graph.local_settings import *
