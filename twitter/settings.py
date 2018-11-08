@@ -25,7 +25,7 @@ NEO4J_URL = ''
 #     'Google',
 #     ]
 
-TO_TRACK = ['model 3']
+TO_TRACK = ['autopilot']
 
 # DateTime format
 DATETIME_FORMAT = '%Y-%m-%d_%H:%M'

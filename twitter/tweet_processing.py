@@ -111,5 +111,5 @@ class TweetProcessing:
             # tweet.tweet_about.connect(company_node)
 
             # for demo
-            company_event = Event.nodes.get(name='Model 3 Delivered')
+            company_event = Event.nodes.get(name='Autopilot rolled out')
             company_event.tweet_from.connect(tweet)
