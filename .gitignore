@@ -3,3 +3,4 @@
 *.ipynb
 test_db.py
 log_twitter.txt
+graph/local_settings.py
