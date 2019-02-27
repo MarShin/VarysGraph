@@ -9,11 +9,9 @@ from twitter import settings
 
 class Graph:
     DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
-<<<<<<< HEAD
-=======
-    # def __init(self):
-    # self.scores = {}
->>>>>>> refine to python3.6
+
+    def __init(self):
+        self.scores = {}
 
     def prepare_attributes(self):
         companies_attributes = []
@@ -32,11 +30,11 @@ class Graph:
         return companies_attributes
 
     # To init Company
-    def init_db(cls, companies_attributes):
+    def init_db(self, cls, companies_attributes):
         print('initing db for first time setup')
         companies = Company.create(*companies_attributes)
 
-    def compute_score():
+    def compute_score(self):
         pass
 
     def prepare_news_attributes(self):
@@ -48,7 +46,6 @@ class Graph:
     def batch_news_processing(cls, news_attributes):
         print('graph processing each article to db')
         news = News.create_or_update(*news_attributes)
-<<<<<<< HEAD
         # tesla = Company.nodes.get(name='Tesla')
         #
         # if tesla is not None:
@@ -61,12 +58,3 @@ class Graph:
         company_event = Event.nodes.get(name='Model 3 Delivered')
         for k, article in enumerate(news):
             company_event.cited_from.connect(article)
-=======
-        tesla = Company.nodes.get(name='Tesla')
-
-        if tesla is not None:
-            for k, article in enumerate(news):
-                article.cites.connect(tesla)
-        else:
-            print('cannot find Tesla node')
->>>>>>> refine to python3.6
