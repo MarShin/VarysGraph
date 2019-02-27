@@ -13,12 +13,12 @@ api = tweepy.API(auth)
 
 public_tweets = api.home_timeline()
 for tweet in public_tweets:
-    print tweet.text
-print
+    print(tweet.text)
+print()
 
 # Get the User object
 user = api.get_user('marz_shin')
-print user.screen_name
-print user.followers_count
+print(user.screen_name)
+print(user.followers_count)
 for friend in user.friends():
-    print friend.screen_name
+    print(friend.screen_name)

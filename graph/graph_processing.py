@@ -5,13 +5,20 @@ from twitter.models import Company, News, Event
 from twitter import settings
 
 # for one company
+
+
 class Graph:
     DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
+<<<<<<< HEAD
+=======
+    # def __init(self):
+    # self.scores = {}
+>>>>>>> refine to python3.6
 
     def prepare_attributes(self):
         companies_attributes = []
         for company_name in settings.TO_TRACK:
-            print company_name
+            print(company_name)
             # TODO: add other details with Google Knowlege Graph
             company = {
                 'id_str': company_name,
@@ -26,7 +33,7 @@ class Graph:
 
     # To init Company
     def init_db(cls, companies_attributes):
-        print 'initing db for first time setup'
+        print('initing db for first time setup')
         companies = Company.create(*companies_attributes)
 
     def compute_score():
@@ -39,8 +46,9 @@ class Graph:
 
     @classmethod
     def batch_news_processing(cls, news_attributes):
-        print 'graph processing each article to db'
+        print('graph processing each article to db')
         news = News.create_or_update(*news_attributes)
+<<<<<<< HEAD
         # tesla = Company.nodes.get(name='Tesla')
         #
         # if tesla is not None:
@@ -53,3 +61,12 @@ class Graph:
         company_event = Event.nodes.get(name='Model 3 Delivered')
         for k, article in enumerate(news):
             company_event.cited_from.connect(article)
+=======
+        tesla = Company.nodes.get(name='Tesla')
+
+        if tesla is not None:
+            for k, article in enumerate(news):
+                article.cites.connect(tesla)
+        else:
+            print('cannot find Tesla node')
+>>>>>>> refine to python3.6

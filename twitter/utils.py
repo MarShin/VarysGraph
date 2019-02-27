@@ -4,12 +4,14 @@ from twitter.tweet_processing import TweetProcessing
 from twitter.tasks import bulk_parsing
 from twitter.models import Company
 
-def stream_pipeline(statuses):
-    users_attributes, tweets_attributes = TweetProcessing.prepare_batch_processing(statuses)
 
-    print 'BATCH Tweet'
-    print tweets_attributes
-    print
+def stream_pipeline(statuses):
+    users_attributes, tweets_attributes = TweetProcessing.prepare_batch_processing(
+        statuses)
+
+    print('BATCH Tweet')
+    print(tweets_attributes)
+    print()
     bulk_result = bulk_parsing.delay(users_attributes, tweets_attributes)
 
     tesla = Company.nodes.get(name='Tesla')
@@ -22,8 +24,8 @@ def stream_pipeline(statuses):
     tesla.brand_score = brand_score
     tesla.save()
 
-    print '/////'
-    print 'change score for every batch'
+    print('/////')
+    print('change score for every batch')
     tesla.refresh()
-    print tesla
-    print '/////'
+    print(tesla)
+    print('/////')
