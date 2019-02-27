@@ -4,9 +4,11 @@ from neomodel import config
 from twitter.models import Company, Event
 config.DATABASE_URL = 'bolt://neo4j:password@localhost:7687'
 
+
 class _Getch:
     """Gets a single character from standard input.  Does not echo to the
 screen."""
+
     def __init__(self):
         try:
             self.impl = _GetchWindows()
@@ -18,10 +20,13 @@ screen."""
 
 class _GetchUnix:
     def __init__(self):
-        import tty, sys
+        import tty
+        import sys
 
     def __call__(self):
-        import sys, tty, termios
+        import sys
+        import tty
+        import termios
         fd = sys.stdin.fileno()
         old_settings = termios.tcgetattr(fd)
         try:
@@ -40,12 +45,14 @@ class _GetchWindows:
         import msvcrt
         return msvcrt.getch()
 
+
 def clean_event():
     events = Event.nodes
     if events is not None:
         for event in events:
-            print 'deleting: ' + str(event)
+            print('deleting: ' + str(event))
             event.delete()
+
 
 getch = _Getch()
 if (getch.__call__() == 'k'):
@@ -54,6 +61,11 @@ if (getch.__call__() == 'k'):
     # Alert.send_sms('+85262308397', 'Varys Alert: There is a score change in the Tesla')
     clean_event()
 
-    new_event = Event(name='Model 3 Delivered').save()
-    tesla = Company.nodes.get(name='Tesla')
-    new_event.related_to.connect(tesla)
+    event = Event.nodes.get_or_none(name='Model 3 Delivered')
+    if event is None:  # no Event node found
+        new_event = Event(name='Model 3 Delivered').save()
+        tesla = Company.nodes.get(name='Tesla')
+        new_event.related_to.connect(tesla)
+    else:
+        tesla = Company.nodes.get(name='Tesla')
+        event.related_to.connect(tesla)

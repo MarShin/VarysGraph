@@ -5,13 +5,18 @@ from twitter.models import Company, News, Event
 from twitter import settings
 
 # for one company
+
+
 class Graph:
     DATETIME_FORMAT = '%Y-%m-%d_%H:%M'
+
+    def __init(self):
+        self.scores = {}
 
     def prepare_attributes(self):
         companies_attributes = []
         for company_name in settings.TO_TRACK:
-            print company_name
+            print(company_name)
             # TODO: add other details with Google Knowlege Graph
             company = {
                 'id_str': company_name,
@@ -25,11 +30,11 @@ class Graph:
         return companies_attributes
 
     # To init Company
-    def init_db(cls, companies_attributes):
-        print 'initing db for first time setup'
+    def init_db(self, cls, companies_attributes):
+        print('initing db for first time setup')
         companies = Company.create(*companies_attributes)
 
-    def compute_score():
+    def compute_score(self):
         pass
 
     def prepare_news_attributes(self):
@@ -39,7 +44,7 @@ class Graph:
 
     @classmethod
     def batch_news_processing(cls, news_attributes):
-        print 'graph processing each article to db'
+        print('graph processing each article to db')
         news = News.create_or_update(*news_attributes)
         # tesla = Company.nodes.get(name='Tesla')
         #
