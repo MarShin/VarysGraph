@@ -33,7 +33,7 @@ textblob==0.15.3
 texttable==1.5.0
 tweepy==3.7.0
 twilio==6.24.1
-urllib3==1.24.2
+urllib3==1.26.5
 vine==1.2.0
 websocket-client==0.54.0
 whichcraft==0.5.2
